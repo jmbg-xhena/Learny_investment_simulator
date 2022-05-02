@@ -167,23 +167,50 @@ No se recibió respuesta del servidor. Consulte con su profesor.]]></element>
   <element title="Main_Map_Fin">Financiera</element>
   <element title="Main_Map_EndInv">Inversión final</element>
 
-  <!-- TEXTO MenusUI Main Map -->
-  <element title="Rs_Main_Map_Title1">PROYECTO DE INVERSIÓN</element>
-  <element title="Rs_Main_Map_Title2">INDUSTRIA INMOBILIARIA</element>
-  <element title="Rs_Main_Map_ButtonDescription">DESCRIPCIÓN DEL PROYECTO</element>
-  <element title="Rs_Main_Map_ButtonCashFlow">FLUJOS DE CAJA</element>
-  <element title="Rs_Main_Map_ButtonFinantialIndicators">INDICADORES FINANCIEROS</element>
+  <!-- TEXTO Project Main Map -->
+  <element title="Main_Title1">PROYECTO DE INVERSIÓN</element>
+  <element title="Main_Title2">INDUSTRIA INMOBILIARIA</element>
+  <element title="Main_ButtonDescription">DESCRIPCIÓN DEL PROYECTO</element>
+  <element title="Main_ButtonCashFlow">FLUJOS DE CAJA</element>
+  <element title="Main_ButtonFinantialIndicators">INDICADORES FINANCIEROS</element>
 
-  <!-- TEXTO MenusUI Main Map -->
-  <element title="rS_pd_Title">DESCRIPCIÓN DEL PROYECTO</element>
-  <element title="rS_pd_Icon">INDUSTRIA INMOBILIARIA</element>
-  <element title="rS_pd_Objective_title">Objetivo</element>
-  <element title="rS_pd_InitialInvestment_title">Inversión Inicial</element>
-  <element title="rS_pd_Oportunity_Cost_title">Costo de oportunidad</element>
-  <element title="rS_pd_Annual_Lease_title">Arrendamiento anual</element>
-  <element title="rS_pd_apartment_sell_title">Precio de venta del apartamento en el último año</element>
-  <element title="rS_pd_apartment_AnnualMaintenance_title">Gastos anuales de mantenimiento</element>
-  <element title="rS_pd_apartment_AnnualTaxes_title">Gastos anuales de impuestos</element>
+  <!-- TEXTO Menu project description -->
+  <element title="pd_Title">DESCRIPCIÓN DEL PROYECTO</element>
+  <element title="pd_Icon">INDUSTRIA INMOBILIARIA</element>
+  <element title="pd_Objective_title">Objetivo</element>
+  <element title="pd_InitialInvestment_title">Inversión Inicial</element>
+  <element title="pd_Oportunity_Cost_title">Costo de oportunidad</element>
+  <element title="pd_Annual_Lease_title">Arrendamiento anual</element>
+  <element title="pd_Apartment_sell_title">Precio de venta del apartamento en el último año</element>
+  <element title="pd_Apartment_AnnualMaintenance_title">Gastos anuales de mantenimiento</element>
+  <element title="pd_Apartment_AnnualTaxes_title">Gastos anuales de impuestos</element>
+
+  <!-- TEXTO Cash Flow Menus -->
+  <element title="cf_CashFLows_Title">FLUJOS DE CAJA</element>
+  <element title="cf_IncomingsTitle">INGRESOS [USD]</element>
+  <element title="cf_LeaseTitle">Arrendamiento [USD]</element>
+  <element title="cf_SalePriceTitle">Venta del apartamento [USD]</element>
+  <element title="cf_TotalIncomingTitle">TOTAL INGRESOS [UDS]</element>
+  <element title="cf_Expenses_title">EGRESOS [USD]</element>
+  <element title="cf_MaintenanceExpensesTitle">Gastos de mantenimiento [USD]</element>
+  <element title="cf_TaxExpensesTitle">Gastos de impuestos [USD]</element>
+  <element title="cf_TotalExpenses_title">TOTAL EGRESOS [USD]</element>
+  <element title="cf_CashFlow_title">FLUJO DE CAJA [USD]</element>
+  <element title="Year1">Año 1</element>
+  <element title="Year2">Año 2</element>
+  <element title="Year3">Año 3</element>
+  <element title="Year4">Año 4</element>
+  <element title="Year5">Año 5</element>
+
+  <!-- Finantial indicators -->
+  <element title="fi_Title">INDICADORES FINANCIEROS</element>
+  <element title="fi_TirInterpolateTitle">TASA INTERAN DE RETRONO (TIR) DEL PROYECTO POR INTERPOLACIÓN</element>
+  <element title="fi_MinimumRateTitle">TASA MÍNIMA [%]</element>
+  <element title="fi_TIRTitle">TIR [%]</element>
+  <element title="fi_MaximumRateTitle">TASA MÁXIMA [%]</element>
+  <element title="fi_VANOportunity">CÁLCULO DEL VALOR CATUAL NETO (VAN) CON COSTO DE OPORTUNIDAD DEL PROYECTO</element>
+  <element title="fi_VANTitle">VAN [USD]</element>
+  <element title="fi_Save">GUARDAR EVALUACIÓN</element>
   
   <!-- TEXTO ALERTAS-->
   <element title="ALR_bossoffice_intro_text">¡Te damos una cordial bienvenida! Solicitamos por favor registrar tu asistencia, una vez lo realices podrás ingresar al evento. Recuerda tomar tu mapa de ubicación luego de tu ingreso para que puedas visitar los diferentes stands</element>
