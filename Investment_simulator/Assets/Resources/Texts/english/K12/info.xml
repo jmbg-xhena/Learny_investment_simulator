@@ -1,0 +1,74 @@
+﻿<data>    
+    <instructions>En este laboratorio tiene disponible 3 diferentes escenarios para el desarrollo de problemas matemáticos aplicados a matrices y determinantes. Se tiene la posibilidad de resolver tres prácticas con una situación propuesta y también la opción de desarrollar una práctica libre. Para el caso de las situaciones propuestas se usa: una maqueta de un gasoducto, la trayectoria de un cuerpo celeste y un tanque industrial para mezclas. En la práctica libre dispone de un plano cartesiano para dibujar polígonos.</instructions>
+    
+    <practice1>
+        <name_practice>K12 GRAFOS Y MATRICES</name_practice>
+        <name_practice_>K12 Grafos y matrices</name_practice_>
+        
+        <description_practice>K12 ENG Existe una red de gasoductos que conectan a diversas poblaciones con dos estaciones de bombeo principales, se quiere hallar la matriz de incidencia correspondiente a dicho sistema de tuberías, para determinar en cuántos pasos es el recorrido más corto entre las poblaciones {X1}-{Y1} y cuántas rutas son posibles en {N} pasos entre {X2}-{Y2}.</description_practice>
+
+      <ecuaciones>
+        \opens Sea A una matriz cuadrada se definirá su potenciación:
+
+        A^2=A*A
+        A^3=A^2*A
+
+        \opens tenga en cuenta que la multiplicación en matrices no es conmutativa
+
+      </ecuaciones>
+        
+        <procedure>
+          <![CDATA[ <b>Identificación de elementos y materiales para la práctica de laboratorio:</b>
+            
+•<indent=4%>Maqueta con 4 poblaciones y dos estaciones de bombeo, es decir, 6 puntos que representan seis pasos.</indent>
+•<indent=4%>Tuberías para la interconexión de las poblaciones y las estaciones de bombeo.</indent>
+•<indent=4%>Cuaderno de notas.</indent>
+•<indent=4%>Calculadora.</indent>
+            
+<b>Configuración del laboratorio:</b>
+                
+• <indent=4%>Arrastre las 4 poblaciones hacia la maqueta, el simulador de indicará a través de zonas iluminadas los puntos en donde las poblaciones deben ser ubicadas.</indent>
+• <indent=4%>Arrastre las 2 estaciones de bombeo hacia la maqueta, el simulador de indicará a través de zonas iluminadas los puntos en donde las estaciones deben ser ubicadas.</indent>
+• <indent=4%>Arrastre las tuberías hacia la maqueta, el simulador de indicará a través de zonas iluminadas los tramos en donde las tuberías deben ser ubicadas.</indent>
+• <indent=4%>Una vez terminada de ensamblar la maqueta, haga clic en el botón “Iniciar simulación”. Aparecerá un mensaje indicado que la simulación está siendo configurada, después de este mensaje podrá ver unas flechas que aparecen sobre las tuberías de la maqueta.</indent>
+• <indent=4%>Las flechas representan el sentido en que el gas va de un punto de la maqueta a otro, tenga en cuenta que estas flechas pueden tener un solo sentido o pueden ser bidireccionales.</indent>
+• <indent=4%>Haga clic en el botón “Ver grafo” para visualizar el grafo que representa los puntos de la maqueta y las direcciones en que se conectan los puntos.</indent>
+
+<b>Registro de datos </b>
+    
+• <indent=4%>Tenga en cuenta que para esta práctica de laboratorio se solicita ingresar en el registro de datos lo siguiente: Las matrices A, A² y A³ correspondientes al grafo de la maqueta, número de pasos del recorrido más corto entre las dos poblaciones y Número de rutas posibles en tres pasos entre las dos poblaciones.</indent>
+• <indent=4%>Para realizar el registro de las matrices solicitadas recurra al grafo que representa la maqueta, tenga en cuenta que cada punto de la maqueta está representado por un número en el grafo, en donde los números 4 y 6 son las estaciones de bombeo.</indent>
+• <indent=4%>Una vez ingresados todos los valores solicitados en el registro de datos, haga clic en el botón Verificar para comprobar si están correctos.</indent>
+
+    
+<b>Ejercicio adicional </b>
+   
+• <indent=4%>Al terminar el registro de datos y hacer clic en el botón Reporte se le presentará un ejercicio adicional similar al presentado en el simulador, pero esta vez con 15 poblaciones.</indent>
+• <indent=4%>Debe ingresar el número de pasos del recorrido más corto entre las dos poblaciones y el Número de rutas posibles en determinado número de pasos entre las dos poblaciones.</indent>
+• <indent=4%>Analice el grafo presentado y haga clic en el botón Ver matrices para encontrar las respuestas a los datos solicitados.</indent>
+            
+<b>Evaluación y reporte de laboratorio</b>
+           
+• <indent=4%>Una vez registrados los datos del ejercicio adicional, puede continuar con la evaluación y la generación del reporte de laboratorio.</indent>
+   
+]]>
+
+        </procedure>
+        <tips>
+  <![CDATA[A continuación, encuentra instrucciones sobre cómo usar las herramientas disponibles para esta práctica de laboratorio.
+
+<b>Maqueta:</b> representa cuatro poblaciones y 2 estaciones de bombeo de gas interconectadas por tuberías que pueden ser de una sola dirección o ser bidireccionales, esta maqueta representa un grafo de 6 puntos interconectados.
+        
+<b>Cuaderno de notas:</b> en el laboratorio dispone de un botón que le permite acceder a un cuaderno para toma de notas, observaciones, conclusiones y respuestas a las preguntas complementarias asociadas a esta práctica de laboratorio.
+
+<b>Registro de datos:</b> use esta ventana para registrar los datos calculados, que fueron solicitados en la situación planteada. Tenga en cuenta que debe diligenciar las tres matrices.
+
+<b>Reiniciar la situación:</b> con el botón “papelera” situado al costado izquierdo del simulador es posible reestablecer la simulación a las condiciones iniciales.
+
+<b>Intentos: </b> el indicador de intentos, muestra el número de veces que ha intentado resolver la situación planteada. Tenga presente que estos intentos pueden también aumentar si se hace verificación de datos con resultados incorrectos o si se comenten ciertos errores procedimentales durante el desarrollo de la práctica de laboratorio. La cantidad de intentos influirá en la calificación final obtenida al terminar el laboratorio.
+
+]]></tips>
+        <aula_code>CALMAT001</aula_code>
+    </practice1>
+  
+</data>

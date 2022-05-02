@@ -1,0 +1,32 @@
+<data>
+    <practice1>
+       <statement image="Images/question_sit_1_1" size="32" text="\opens [b] Enunciado:
+
+\opens ENG Durante la realización de la práctica fue necesario multiplicar matrices cuadradas. En la imagen se tienen dos matrices no cuadradas A y B, con base en esto responda las siguientes preguntas sobre multiplicación de matrices.">
+            <question size="32" text="\opens ¿Cuál de las siguientes matrices es la respuesta al multiplicar A*B?">
+                <option correct="False" size="32"> [\matrix{1 0 0|0 1 0| 0 0 1}]</option>
+                <option correct="True" size="32"> [\matrix{3 | 31}]</option>
+                <option correct="False" size="32">[\matrix{3 31}]</option>
+                <option correct="False" size="32">[\matrix{3 0| 0 31}]</option>
+            </question>
+            <question size="32" text="\opens ¿Cuál de las siguientes matrices es la respuesta al multiplicar B*A?">
+                <option correct="False" size="32">[\matrix{0 3 31}]</option>
+                <option correct="False" size="32">[\matrix{0|0}]</option>
+                <option correct="True" size="32">\opens No se puede </option>
+                <option correct="False" size="32">\opens Ninguna de las anteriores</option>
+            </question>
+            <question size="32" text="\opens ¿Cuál de las siguientes matrices es la respuesta a A^2?">
+                <option correct="False" size="32">[\matrix{1 9 4 | 0 1 25}]</option>
+                <option correct="False" size="32">[\matrix{1 9 4|0 1 25| 0 0 0}]</option>
+                <option correct="False" size="32">[\matrix{1|0}]</option>
+                <option correct="True" size="32">\opens No se puede</option>
+            </question>
+        </statement>
+        <complementaries>
+            <question>¿Todas las matrices de trayectorias como en el gasoducto son cuadradas?</question>
+            <question>Se utilizaron matrices para resolver rutas en un gasoducto ¿En qué otros ámbitos se pueden crear matrices de incidencia?</question>
+            <question>¿Dos matrices rectangulares se pueden multiplicar? Explique.</question>
+            <question>¿Con la matriz de incidencia y sus potencias se podrá saber cuál es la ruta que se debe seguir entre dos puntos?</question>
+        </complementaries>
+    </practice1>
+</data>

@@ -1,0 +1,152 @@
+<data>
+    <element title="simulator_title">SIMULADOR DE GEOMETRÍA DE POLÍGONOS</element>
+    <element title="spanish">ESPAÑOL</element>
+    <element title="english">ENGLISH</element>
+    <element title="portuguese">PORTUGUES</element>
+    <element title="language_title">IDIOMA</element>
+    <element title="language_selector">ENG Seleccione su idioma</element>
+    <element title ="welcome">Bienvenido al simulador de CloudLabs de polígonos, en este simulador encontrará 5 situaciones o retos a resolver y una opción de práctica libre. En el botón de información dispone de instrucciones adicionales. Haga clic en Aceptar para continuar.</element>
+    <element title ="securityclose">No ha sido posible comprobar su número de licencia. Asegúrese que esté abriendo esta aplicación desde el menú principal CloudLabs.</element>
+    <element title="accept">ACEPTAR</element>
+    <element title="login">ENG INICIO DE SESIÓN</element>
+    <element title="user">Usuario</element>
+    <element title="course">Curso</element>
+    <element title="idcourse">ID Curso</element>
+    <element title="institution">Institución</element>
+    <element title="user_input">Invitado</element>
+	<element title="course_input">Matemáticas</element>
+	<element title="idcourse_input">MATGEN</element>
+	<element title="institution_input">IE</element>
+    <element title="login_empty">Todos los campos son necesarios.</element>
+    <element title="password">Contraseña</element>
+    <element title="login_bt">INGRESAR</element>
+    <element title="invalid_user_pass">El usuario y/o la contraseña son inválidas. Verifíquelas e intente nuevamente.</element>
+    <element title="lab_not_assigned">El laboratorio no está asignado al estudiante. Por favor comuníquese con su profesor.</element>
+    <element title="db_exception">Error en la base de datos. Por favor comuníquese con su proveedor.</element>
+    <element title="invalid_response">La respuesta del servidor es inválida. Por favor comuníquese con su proveedor.</element>
+    <element title="no_internet_aula">No se ha podido establecer la conexión con el equipo del profesor. Haga clic en REINTENTAR para tratar de realizar la conexión nuevamente o haga clic en OFFLINE para continuar sin conectarse al equipo profesor.</element>
+    <element title="no_internet_aula_ios">No se ha podido establecer la conexión con el equipo del profesor. Haga clic en REINTENTAR para tratar de realizar la conexión nuevamente.</element>
+    <element title="license_expired">Hay un problema con la licencia del gestor de aula, por favor comuníquese con el proveedor.</element>
+    <element title="license_expired_offline">Hay un problema con la licencia del gestor de aula. Se ingresará en modo offline.</element>
+    <element title="offline">OFFLINE</element>
+    <element title="try_again">REINTENTAR</element>
+    <element title="instructions">INSTRUCCIONES</element>
+    <element title="help">AYUDA</element>
+    <element title="situation">Situación</element>
+	<element title="procedure">Procedimiento</element>
+	<element title="equation">Ecuaciones</element>
+    
+	<element title="evaluationReport">PREGUNTAS CONCEPTUALES</element>
+	<element title="evaluation">Preguntas conceptuales</element>
+	<element title="attempts">Intentos</element>
+	<element title="finish">TERMINAR</element>
+	<element title="score">CALIFICACIÓN</element>
+    <element title="score_attempts">Intentos</element>
+    <element title="score_concepts">Conceptos</element>
+    <element title="score_skills">Habilidades</element>
+    <element title="score_time">Tiempo</element>
+    <element title="score_score">Puntuación</element>
+    <element title="score_level">Nivel</element>
+    <element title="score_level_a">Amateur</element>
+    <element title="score_level_a2">Aprendiz</element>
+    <element title="score_level_b">Practicante</element>
+    <element title="score_level_c">Profesional</element>
+    <element title="score_level_d">Experto</element>
+    <element title="score_level_e">Maestro</element>
+    <element title="score_level_f">Leyenda</element>
+    <element title="score_report">RESULTADOS</element>
+	<element title="cancel">CANCELAR</element>
+	<element title="page">Página</element>
+    
+	<element title="notepadPlaceholder">Empieza a escribir aqui...</element>
+    
+	<element title="back_question"><![CDATA[
+
+¿Desea salir de la práctica de laboratorio? Tenga en cuenta que todas las configuraciones y datos se borrarán.]]></element>
+
+	<element title="reportDialog">Guardar reporte</element> 
+
+    <element title="no_licencia">No ha sido posible comprobar su número de licencia. Asegúrese que esté abriendo esta aplicación desde el menú principal CloudLabs.</element>
+    <element title="proceso_invalido">El proceso de validación arrojó un resultado inválido. Por favor reinstale la aplicación e intente nuevamente.</element>
+    <element title="limite_alcanzado">Se ha excedido el número de activaciones permitidas por su licencia. Por favor comuníquese con su proveedor.</element>
+    <element title="aplicacion_no_soportada">La licencia adquirida no permite ejecutar esta aplicación. Por favor comuníquese con su proveedor.</element>
+    <element title="licencia_caducada">Su licencia ha caducado. Por favor comuníquese con su proveedor.</element>
+    <element title="licencia_desactivada">Su licencia ha sido desactivada. Por favor comuníquese con su proveedor.</element>
+    <element title="pendiente_activacion">Su licencia aun no ha sido activada. Por favor comuníquese con su proveedor.</element>
+    <element title="licencia_invalida">El número de licencia con el que se ha activado el producto es inválido. Por favor comuníquese con su proveedor.</element>
+    <element title="no_internet_primera_vez">Parece que algo ha fallado en la conexión a Internet o con los servidores CloudLabs. Presione el botón VALIDAR para intentarlo de nuevo o CANCELAR para cerrar la aplicación.</element>
+    <element title="no_internet_limite">Parece que ha pasado mucho tiempo desde la última vez que su licencia fue verificada. Por favor conecte su dispositivo a Internet y haga clic en el botón VALIDAR o CANCELAR para cerrar la aplicación.</element>
+    <element title="no_internet">Parece que algo ha fallado en la conexión a Internet o con los servidores CloudLabs. Presione el botón VALIDAR para intentarlo de nuevo o CANCELAR para continuar.</element>
+
+    <element title="invalid_url">La aplicación se abrió desde una ruta inválida. Asegúrese que se abra desde el curso respectivo.</element>
+    
+    <element title="error_aula">Error de conexión. Verifique su conexión e intente nuevamente.</element>
+    <element title="user_not_found">El usuario no se encuentra registrado. Por favor comuníquese con su profesor.</element>
+    <element title="lab_not_found">No se encuentra la práctica. Por favor comuníquese con su profesor</element>
+    <element title="lab_delivered_prev">Usted ya ha registrado una calificación y un reporte de laboratorio para esta práctica. Los datos generados no pudieron ser guardados. Por favor comuníquese con su profesor.</element>
+    <element title="lab_inserted">El reporte de laboratorio y los datos de esta práctica han sido enviados a su profesor.</element>
+    <element title="lab_updated">El reporte de laboratorio y los datos de esta práctica han sido actualizados y enviados a su profesor.</element>
+    <element title="lab_send_error">No se ha podido establecer la conexión con el equipo del profesor. Intente generar de nuevo el reporte de laboratorio o comuníquese con su profesor. Si el problema persiste por favor guarde una copia de su reporte de laboratorio.</element>
+    
+  
+  
+    <element title="score">CALIFICACIÓN</element>
+    <element title="score_success">Muy bien.</element>
+    <element title="score_success_msg">Cada vez avanzas más.</element>
+    <element title="score_fail">En algo fallaste.</element>
+    <element title="score_fail_msg"><![CDATA[Vuelve a intentarlo,<br>siempre podrás ser mejor.]]></element>
+    
+    <element title="data_empty">Todos los campos son necesarios.</element>
+
+    <element title="loading_screen_text">Preparando aplicación, toque la pantalla para cancelar.</element>
+
+    <element title="report_date">Fecha de inicio</element>
+    <element title="report_time">Tiempo de sesión</element>
+    <element title="unity">Unidad</element>
+    <element title="report_score">Calificación</element>
+    <element title="report_unity">Matrices y determinantes</element>
+    <element title="na">N/A</element>
+    <element title="name_report_1">Construccion_de_una_llave_de_seguridad_Perimetro_de_un_poligono_regular</element>
+    <element title="name_report_2">Viaje_de_exploracion_espacial_Perimetro_de_un_poligono_irregular</element>
+    <element title="name_report_3">Construccion_de_tanque_para_el_zoologico_Area_de_un_poligono_regular</element>
+    <element title="name_report_4">Fabricacion_de_poste_metálico_Perímetro_y_área_de_un_polígono_regular</element>
+    <element title="name_report_5">Proyección_de_una_constelación_estelar_Perímetro_de_un_polígono_irregular</element>
+    <element title="name_report_6">Práctica_libre_Construcción_de_llaves_de_seguridad</element>
+    <element title="answers">Respuestas</element>
+    <element title="correct_answers">Respuestas esperadas</element>
+    <element title="complementary_questions">Preguntas complementarias</element>
+
+    <element title="generatingReport"><![CDATA[
+
+Generando reporte en la carpeta CLOUDLABS, espere un momento por favor.]]></element>
+    <element title="generatingReportNoAndroid">
+    <![CDATA[
+
+Generando reporte, espere un momento por favor.]]>
+    </element>
+  
+  <element title="lab_send_error">No se ha podido establecer la conexión con el equipo del profesor. Intente generar de nuevo el reporte de laboratorio o comuníquese con su profesor. Si el problema persiste por favor guarde una copia de su reporte de laboratorio.</element> 
+  
+    <element title="reporte">REPORTE</element>
+    <element title="verify">VERIFICAR</element>
+    
+    <element title="data_empty_sit"><![CDATA[
+
+Debe registrar al menos un campo para realizar la validación de datos.]]></element>
+    <element title="verify_bad"><![CDATA[
+
+Los datos no son correctos, revise los datos e intente nuevamente]]></element>
+    <element title="report_bad"><![CDATA[
+
+Los datos ingresados no son correctos, revise los datos y haga clic de nuevo en el botón "verificar". ¿Desea generar el reporte con estos datos?]]></element>
+    <element title="verify_success"><![CDATA[
+
+¡Felicitaciones! Los datos son correctos, a continuación, puede generar el reporte de práctica.]]></element>
+    <element title="report_success"><![CDATA[
+
+¡Felicitaciones! Los datos son correctos. Haga clic en Aceptar para continuar con la evaluación y la generación del reporte de laboratorio.]]></element>
+    <element title="scenario_report">ESCENARIO</element>
+    <element title="lab_send_error_no_response"><![CDATA[
+
+No se recibió respuesta del servidor. Consulte con su profesor.]]></element>
+</data>

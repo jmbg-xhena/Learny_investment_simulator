@@ -1,0 +1,424 @@
+﻿<data>    
+    <instructions><![CDATA[يتضمن هذا المختبر خمسة تجارب مختبرية ستدرس فيها المفاهيم المرتبطة بأنواع المخاليط والفصل. يوفر برنامج المحاكاة كل العناصر الضرورية لكل ممارسة، مثل: الأقماع، وورق الترشيح، ومعدات التقطير، وكبسولة البورسلين وغيرها من المواد الازمة.]]></instructions>
+    
+    <practice1>
+	    <name_practice>التقطير</name_practice>
+
+	    <name_practice_>التقطير</name_practice_>
+	    
+	    <description_practice><![CDATA[في فصل الشتاء، يتم إغلاق المسارات من ثم ينفذ الوقود لدى الفنادق حيث يستخدم في توقير الحرارة للغرف. تخيل أنك كيميائي المدينة وقد جاءوا إليك للمساعدة، داخل مختبرك لديك وقود حيوي (محلول كحولي) ولكن يحتوي على الكثير من الماء حتى يتمكن من إضاءة الغلاية، يجب عليك تركيز الكحول عن طريق التقطير البسيط أو التقطير المتقطع وتحديد النسب المئوية للمخلفات والمواد المقطرة وتحديد قيمة 
+.{X1} , {Y1} 
+]]></description_practice>
+
+      <ecuaciones><![CDATA[
+\meta[align=r]
+\opens{التقطير البسيط هو طريقة لفصل الخليط المتجانس من السوائل. يعتمد على اختلاف درجة الغليان لكل مكون في المحلول.
+لا يحدث الفصل تمامًا، حيث ان البخار الناتج يحمل كمية من المواد المتطايرة، مما يؤدي إلى انتاج محلول أكثر تركيزا ولكنه ليس منفصلاً تمامًا. وهذا يعني أنه من الضروري إنشاء رسوم بيانية توضح العلاقة بين درجة الحرارة والتركيب لكل محلول.
+}
+      ]]></ecuaciones>
+        
+      <procedure>
+<![CDATA[ <b>1. تحديد معدات ومواد المختبر</b>
+            
+• <indent=4%>قارورة ذات الذراع المائل</indent>
+• <indent=4%>مكثف</indent>
+• <indent=4%>قارورة مخروطية</indent>
+• <indent=4%>اثنين من السدادات المطاطية</indent>
+• <indent=4%>مقياس الحرارة (ثرموميتر)</indent>
+• <indent=4%>Two hoses</indent>
+• <indent=4%>فتيلة للتسخين</indent>
+• <indent=4%>مخبار مدرج</indent>
+• <indent=4%>مقياس كثافة الكحول</indent>
+• <indent=4%>دورقين (المحلول الأول أصفر اللون، والمحلول الثاني أحمر اللون)</indent>
+• <indent=4%>اثنين من القواعد الدائرية</indent>
+• <indent=4%>ماسكتين (كماشتين)</indent>
+• <indent=4%>ماسكة دائرية</indent>
+• <indent=4%>موقد بنزن</indent>
+            
+<b>2. تعيين القياسات:</b>
+                
+• <indent=4%>ضع فتيلة التسخين على الحلقة</indent>
+• <indent=4%>ضع القارورة ذات الذراع المائل على فتيلة التسخين</indent>
+• <indent=4%>خذ إحدى العينات واسكبها في القارورة المتدرجة</indent>
+• <indent=4%>عين مقياس الكحول في المخبار المدرج لقياس النسبة الأولية.</indent>
+• <indent=4%>نسكب محتويات الاسطوانة المدرجة.</indent>
+• <indent=4%>اسكب باقي العينة في القارورة ذات الذراع المائل</indent>
+• <indent=4%>ضع السدادات المطاطية في مكانها مع مراعاة ترك مكان لمقياس الحرارة والمكثف.</indent>
+• <indent=4%>ضع مقياس الحرارة في الأعلى.</indent>
+• <indent=4%>ضع المكثف على الجانب.</indent>
+• <indent=4%>قم بتوصيل الأنابيب بالمكثف ومصدر المياه.</indent>
+• <indent=4%>ضع القارورة المخروطية في نهاية المكثف.</indent>
+• <indent=4%>قم بتشغيل موقد بنزن وابدأ التقطير.</indent>
+• <indent=4%>كرر العملية السابقة مع العينة الأخرى.</indent>
+
+<b>3. الحسابات:</b>
+    
+• <indent=4%>استخدم زر المعلومات "i" لرؤية المعادلة المتعلقة بالتجربة.</indent>
+• <indent=4%>عند الانتهاء من التقطير ووصول الحجم النهائي، خذ البقايا المتبقية في القارورة وصبها في المخبار المدرج.</indent>
+• <indent=4%>استخدم مقياس كثافة الكحول لقياس كثافة الكحول. سجله وتخلص من المحلول.</indent>
+• <indent=4%>خذ القارورة المخروطية، وقس النسبة المئوية للكحول في نواتج التقطير وسجل هذه القيمة.</indent>
+• <indent=4%>تذكر أن كثافة الإيثانول عند 20 درجة مئوية تساوي 0.789 جم / مل وللماء تساوى 0.9982 جم / مل.</indent>
+
+    
+<b>4. تسجيل البيانات:</b>
+   
+• <indent=4%>لاحظ أنه بالنسبة لتسجيل البيانات في هذه التجربة المختبرية، ستحتاج إلى إدخال القيم التالية: نقطة الغليان، والنسبة المئوية والجزء المولي من الكحول في المواد المتخلفة والمواد المقطرة.</indent>
+• <indent=4%>بمجرد إدخال جميع القيم في سجل البيانات، انقر فوق الزر "تأكيد" للتحقق مما إذا كانت صحيحة.</indent>
+            
+<b>5. Evaluation and laboratory report:</b>
+           
+• <indent=4%>إذا كانت القيم المرسلة صحيحة ، فتابع التقييم ثم قم بإنشاء التقرير المختبري.</indent>
+
+]]>
+
+        </procedure>
+        <tips>
+<![CDATA[ستجد أدناه تعليمات حول كيفية استخدام الأدوات المتوفرة في هذا التمرين المختبري.
+
+<b>الدورق:</b> هو أداة زجاجية تستخدم في نقل عينات السوائل لإجراء دراسات كيميائية.
+        
+<b>مقياس الحرارة (الثرمومتر):</b> هو أداة حساسة للتغيرات في درجة الحرارة وهي إما تناظرية أو رقمية.
+
+<b>المكثف:</b> : هو جهاز ذو طبقة خارجية مزدوجة، حيث تتدفق المواد الساخنة داخليًا وتتدفق مادة التبريد (المبرد) من الخارج. وهذا يسمح بنقل الحرارة ومن ثم انخفاض درجة الحرارة، مما يؤدي إلى حدوث التكثف.
+
+<b>دفتر الملاحظات:</b> يحتوي المختبر على زر يسمح لك بالوصول إلى دفتر ملاحظات، حيث يمكنك تسجيل أي ملاحظات واستنتاجات وإجاباتك عن الأسئلة المرتبطة بتجربة معينة.
+
+<b>تسجيل البيانات:</b>استخدم هذه النافذة لتسجيل البيانات المطلوبة. مع مراعاة الوحدات التي يجب تسجيل البيانات بها.
+
+<b>إعادة التشغيل:</b> يؤدي النقر فوق الزر الذي يحتوي على رمز سلة المهملات، والذي يمكن العثور عليه على الجانب الأيسر من المحاكي، إلى السماح لك بإعادة تعيين المحاكي إلى حالته الأولية.
+
+<b>المحاولات: </b>يُظهر مؤشر المحاولات عدد المرات التي حاولت فيها حل الموقف المحدد. لاحظ أن عدد المحاولات قد يزداد أيضاً إذا كانت البيانات غير صحيحة أو إذا حدثت بعض الأخطاء الإجرائية أثناء القيام بالتجارب المختبرية. سيؤثر عدد المحاولات في الدرجة النهائية التي تحصل عليها في نهاية المختبر.
+
+]]>
+		</tips>
+
+        <aula_code>QUIMEZ001</aula_code>
+
+    </practice1>
+    
+
+    <practice2>
+	    <name_practice>DECANTATION</name_practice>
+
+	    <name_practice_>Decantation</name_practice_>
+	    
+	    <description_practice>You are a laboratory analyst at the wastewater treatment plant (WWTP) of a factory where food products are manufactured. Every week, two samples of wastewater are collected, and your task is to analyze these samples in order to determine the percentage of water contained in each one. 
+	    </description_practice>
+
+      <ecuaciones>
+\meta[align=l]
+\opens The percentage by volume of water in the sample is calculated as follows:
+
+\meta[align=c]
+\opens % water = \frac{\opens Volume of water}{\opens volume of sample}*100
+
+      </ecuaciones>
+        
+      <procedure>
+<![CDATA[ <b>1. Indentification of laboratory elements and materials:</b>
+            
+• <indent=4%>Decanting funnel</indent>
+• <indent=4%>Beaker</indent>
+• <indent=4%>Funnel</indent>
+• <indent=4%>Two samples with oil</indent>
+• <indent=4%>Clamp stand</indent>
+• <indent=4%>Clamp pincers</indent>
+            
+<b>2. Taking measurements:</b>
+                
+• <indent=4%>Take the decanting funnel and place it in the ring of the clamp stand.</indent>
+• <indent=4%>Take the filtration funnel and place it over the decanting funnel.</indent>
+• <indent=4%>Place the beaker below the decanting funnel.</indent>
+• <indent=4%>Take sample 1 (yellow), which contains oil (organic phase) and water (aqueous phase).</indent>
+• <indent=4%>Pour this sample into the separatory funnel.</indent>
+• <indent=4%>Wait for the mixture to separate into its heterogeneous phases due to decantation.</indent>
+• <indent=4%>Open the valve and allow the organic phase to flow into the beaker.</indent>
+• <indent=4%>Close the valve when the organic phase has poured into the beaker completely, without allowing the aqueous phase to pass.</indent>
+• <indent=4%>Take the data and repeat the procedure with the other sample (red).</indent>
+
+<b>3. Calculations:</b>
+    
+• <indent=4%>Use the information button ‘i’ to see the equation related to this laboratory practice.</indent>
+• <indent=4%>When the decantation has finished, take note of the volumes of the heterogeneous phases.</indent>
+• <indent=4%>Then determine the volume percentage of the aqueous phase of the total mixture.</indent>
+
+    
+<b>4. Data registry:</b>
+   
+• <indent=4%>Note that for the data registry in this laboratory practice, you will need to enter the following values: volume of the mixture to decant, volume in the beaker and percentage of water in the mixture. Once you have entered all of the values into the data registry, click on the Verify button to check if they are correct.</indent>
+            
+<b>5. Evaluation and laboratory reports:</b>
+           
+• <indent=4%>If the values sent are correct, continue with the evaluation and then go on to generate the laboratory report.</indent>
+
+]]>
+
+        </procedure>
+        <tips>
+<![CDATA[Below you will find instructions on how to use the tools available in this laboratory practice.
+
+<b>Decanting funnel:</b> also known as a separatory funnel, this laboratory instrument allows heterogeneous mixtures to be separated in the bottom due to its valve. It can be used to perform reactions.
+        
+<b>Filtration funnel:</b> also known as simply a funnel, this laboratory instrument allows solid-liquid mixtures to be separated using filter paper. It is also used as an aid when pouring liquids into other containers, avoiding spillage.
+
+<b>Notebook:</b> the laboratory has a button which will allow you to access a notebook, where you can record any notes, observations, conclusions and your answers to the complementary questions associated with this practice.
+
+<b>Data registry:</b> use this window to record the data required by the situation. Take into account the units in which the data must be registered.
+
+<b>Restart situation:</b> clicking on the button with the trash can icon, which can be found on the left side of the simulator, will allow you to reset the simulator to its initial conditions.
+
+<b>Attempts: </b> the attempts indicator shows the number of times that you have tried to resolve the situation given. Note that the number of attempts may also increase if the data is incorrect or if certain procedural errors are made during the development of the laboratory practice. The number of attempts will influence the final grade given at the end of the laboratory.
+
+]]>
+		</tips>
+
+        <aula_code>QUIMEZ002</aula_code>
+
+    </practice2>
+    
+    <practice3>
+	    <name_practice>FILTRATION</name_practice>
+
+	    <name_practice_>Filtration</name_practice_>
+	    
+	    <description_practice>It is necessary to determine the percentage of solids in a water basin to be used by a nearby community. As the laboratary analyst in charge of characterizing the water basin, you have received two samples from different areas. You need to determine the percentage of solids in each sample. </description_practice>
+
+      <ecuaciones>
+\meta[align=l]
+\opens The percentage of volume of solid in the sample is calculated like so:
+
+\meta[align=c]
+\opens % of solid in the sample = \frac{\opens mass of the solid}{\volume of the sample}*100
+
+      </ecuaciones>
+        
+      <procedure>
+<![CDATA[ <b>1. Identification of elements and materials for the laboratory practice:</b>
+            
+• <indent=4%>Filter paper.</indent>
+• <indent=4%>Erlenmeyer flask.</indent>
+• <indent=4%>Funnel.</indent>
+• <indent=4%>Two samples with solids.</indent>
+• <indent=4%>Clamp stand.</indent>
+• <indent=4%>Ring clamp.</indent>
+• <indent=4%>Pincers.</indent>
+• <indent=4%>Watch glass.</indent>
+• <indent=4%>Analytical balance.</indent>
+• <indent=4%>Oven.</indent>
+            
+<b>2. Taking measurements:</b>
+                
+• <indent=4%>Take the funnel and place it over the clamp stand.</indent>
+• <indent=4%>Take the filter paper and place it over the funnel.</indent>
+• <indent=4%>Fold it.</indent>
+• <indent=4%>Place the Erlenmeyer flask beneath the funnel.</indent>
+• <indent=4%>Take a sample and filter it.</indent>
+• <indent=4%>Weigh the watch glass and take note of this value.</indent>
+• <indent=4%>Use the pincers to take the filter paper and weigh it. Take note of this value.</indent>
+• <indent=4%>Take the sample to the oven to dry it.</indent>
+• <indent=4%>Weigh the dry sample and take note of this value.</indent>
+
+<b>3. Calculations:</b>
+    
+• <indent=4%>Use the information button ‘i’ to see the equation related to this laboratory practice.</indent>
+• <indent=4%>Take into account the weights of the watch glass, the damp sample and the dry sample.</indent>
+• <indent=4%>Then determine the percentage of solid in the total mixture.</indent>
+
+    
+<b>4. Data registry:</b>
+   
+• <indent=4%>Note that for the data registry in this laboratory practice, you will need to enter the following values: mass of the dry solid, volume of the mixture and percentage of solid in the mixture. Once you have entered all of the values into the data registry, click on the Verify button to check if they are correct.</indent>
+            
+<b>5. Evaluation and laboratory reports:</b>
+           
+• <indent=4%>If the values sent are correct, continue with the evaluation and then go on to generate the laboratory report.</indent>
+
+]]>
+
+        </procedure>
+        <tips>
+<![CDATA[Below you will find instructions on how to use the tools available in this laboratory practice.
+
+<b>Filter paper:</b> this laboratory utensil is used to separate solid-liquid mixtures by naturally retaining the solid. There are different values for the size of the pore and the resistance of the paper.
+        
+<b>Filtration funnel:</b> also known as simply a funnel, this laboratory instrument allows solid-liquid mixtures to be separated using filter paper. It is also used as an aid when pouring liquids into other containers, avoiding spillage.
+
+<b>Notebook:</b> the laboratory has a button which will allow you to access a notebook, where you can record any notes, observations, conclusions and your answers to the complementary questions associated with this practice.
+
+<b>Data registry:</b> use this window to record the data required by the situation. Take into account the units in which the data must be registered.
+
+<b>Restart situation:</b> clicking on the button with the trash can icon, which can be found on the left side of the simulator, will allow you to reset the simulator to its initial conditions.
+
+<b>Attempts: </b> the attempts indicator shows the number of times that you have tried to resolve the situation given. Note that the number of attempts may also increase if the data is incorrect or if certain procedural errors are made during the development of the laboratory practice. The number of attempts will influence the final grade given at the end of the laboratory.
+
+]]>
+		</tips>
+
+        <aula_code>QUIMEZ003</aula_code>
+
+    </practice3>
+
+    <practice4>
+      <name_practice>EVAPORATION</name_practice>
+
+      <name_practice_>Evaporation</name_practice_>
+      
+      <description_practice>A company dedicated to the certification of food products has received two samples of baby food and it is necessary to determine the percentage of solids in the samples in relation to the total mixture. You have been made responsible for the analysis of these food products and you may perform the analysis in a laboratory equipped with everything you will need to determine the percentage of solids.</description_practice>
+
+      <ecuaciones>
+\meta[align=l]
+\opens The percentage of volume in solid in the sample is calculated by:
+
+\meta[align=c]
+\opens % of solid in the sample = \frac{\opens mass of the solid}{\volume of the sample}*100
+
+      </ecuaciones>
+        
+      <procedure>
+<![CDATA[ <b>1. Identification of elements and materials for the laboratory practice:</b>
+            
+• <indent=4%>Wire gauze.</indent>
+• <indent=4%>Bunsen burner.</indent>
+• <indent=4%>Tripod.</indent>
+• <indent=4%>Analytical balance.</indent>
+• <indent=4%>Porcelain capsule.</indent>
+• <indent=4%>Two volumetric flasks with samples.</indent>
+            
+<b>2. Taking measurements:</b>
+                
+• <indent=4%>Take the wire gauze and place it on the tripod.</indent>
+• <indent=4%>Place the Bunsen burner under the tripod.</indent>
+• <indent=4%>Weigh the porcelain capsule</indent>
+• <indent=4%>Place the capsule on the tripod.</indent>
+• <indent=4%>Turn on the Bunsen burner and wait for the sample to evaporate.</indent>
+• <indent=4%>Once the sample has evaporated, weigh the capsule with the dry sample.</indent>
+
+<b>3. Calculations:</b>
+    
+• <indent=4%>Use the information button ‘i’ to see the equation related to the laboratory practice.</indent>
+• <indent=4%>Take into account the weights of the empty capsule, the capsule with the dry sample and the amount of the sample to be evaporated.</indent>
+• <indent=4%>Then determine the percentage of solid in the total mixture.</indent>
+
+    
+<b>4. Data registry:</b>
+   
+• <indent=4%>Note that for the data registry in this laboratory practice, you will need to enter the following values: volume of the liquid to evaporate, mass of the dry solid and percentage of solid in the sample. Once you have entered all of the values into the data registry, click on the Verify button to check if they are correct.</indent>
+            
+<b>5. Evaluation and laboratory reports:</b>
+           
+• <indent=4%>If the values sent are correct, continue with the evaluation and then go on to generate the laboratory report.</indent>
+
+]]>
+
+        </procedure>
+        <tips>
+<![CDATA[Below you will find instructions on how to use the tools available in this laboratory practice.
+
+<b>Porcelain capsule</b> this laboratory element is used to expose samples to heat, due to its capacity for withstanding high temperatures without deteriorating, whether in an oven or over a flame.
+        
+<b>Notebook:</b> the laboratory has a button which will allow you to access a notebook, where you can record any notes, observations, conclusions and your answers to the complementary questions associated with this practice.
+
+<b>Data registry:</b> use this window to record the data required by the situation. Take into account the units in which the data must be registered.
+
+<b>Restart situation:</b> clicking on the button with the trash can icon, which can be found on the left side of the simulator, will allow you to reset the simulator to its initial conditions.
+
+<b>Attempts: </b> the attempts indicator shows the number of times that you have tried to resolve the situation given. Note that the number of attempts may also increase if the data is incorrect or if certain procedural errors are made during the development of the laboratory practice. The number of attempts will influence the final grade given at the end of the laboratory.
+
+]]>
+		</tips>
+
+        <aula_code>QUIMEZ004</aula_code>
+
+    </practice4>
+
+    <practice5>
+      <name_practice>FRACTIONAL DISTILLATION</name_practice>
+
+      <name_practice_>Fractional distillation</name_practice_>
+      
+      <description_practice>A small distillery produces alcohol for a sophisticated brand of alcoholic drinks. In order to improve the yield of ethanol obtained, equipment for fractional distillation has been implemented. As analyst, you must process two samples and analyze them in order to determine their efficiency. You must also characterize the column according to its theoretical plates, distilling the samples until volumes of {X1} and {Y1} are reached.</description_practice>
+
+      <concept>
+\meta[align=l]
+\opens Fractional distillation is a technique for separating homogeneous mixtures of liquids which uses the difference in the boiling points of each component of the solution. There is not a total separation, as the steam produced drags part of the less volatile component with it. However, it is more efficient than a simple distillation, as the fractionating column allows the vapor to recirculate, thereby providing a more concentrated and almost totally separated (more than 90%) solution.
+      </concept>
+        
+      <procedure>
+<![CDATA[ <b>1. Identification of laboratory elements and materials</b>
+            
+• <indent=4%>Flask</indent>
+• <indent=4%>Condenser</indent>
+• <indent=4%>Fractionating column</indent>
+• <indent=4%>Bifurcation</indent>
+• <indent=4%>Erlenmeyer flask</indent>
+• <indent=4%>Two rubber stoppers</indent>
+• <indent=4%>Thermometer</indent>
+• <indent=4%>Two tubes</indent>
+• <indent=4%>Graduated cylinder</indent>
+• <indent=4%>Alcohol-meter</indent>
+• <indent=4%>Two beakers</indent>
+• <indent=4%>Two clamp stands</indent>
+• <indent=4%>Two sets of clamp pincers</indent>
+• <indent=4%>Ring clamp</indent>
+• <indent=4%>Bunsen burner</indent>
+            
+<b>2. Taking measurements:</b>
+                
+• <indent=4%>Place the flask on the ring.</indent>
+• <indent=4%>Take one of the samples and pour it into the graduated cylinder.</indent>
+• <indent=4%>Take the alcohol-meter to the volumetric flask to measure the initial percentage.</indent>
+• <indent=4%>Then discard the contents of the graduated cylinder.</indent>
+• <indent=4%>Pour the rest of the sample into the flask.</indent>
+• <indent=4%>Place the fractionating column in the flask.</indent>
+• <indent=4%>Put the rubber stoppers in place in order to add the thermometer and condenser.</indent>
+• <indent=4%>Place the thermometer at the upper part.</indent>
+• <indent=4%>Place the condenser at the side.</indent>
+• <indent=4%>Connect the tubes to the condenser and the water source.</indent>
+• <indent=4%>Place the Erlenmeyer flask at the end of the condenser.</indent>
+• <indent=4%>Turn on the Bunsen burner and begin the distillation.</indent>
+• <indent=4%>Then repeat the procedure with the other sample.</indent>
+
+<b>3. Calculations:</b>
+    
+• <indent=4%>Use the information button ‘i’ to see the equation related to the laboratory practice.</indent>
+• <indent=4%>At the end of the distillation, when the volume required has been reached, take the residue left in the flask and pour it into the graduated cylinder.</indent>
+• <indent=4%>Use the alcohol-meter to measure the percentage of alcohol in the residue. Record this value and discard the residue.</indent>
+• <indent=4%>Then take the Erlenmeyer flask, measure the percentage of alcohol in the distillate and record the value.</indent>
+• <indent=4%>Remember that the density of ethanol at 20°C is 0.789 g/ml and that of water is 0.9982 g/ml.</indent>
+    
+<b>4. Data registry:</b>
+   
+• <indent=4%>Note that for this laboratory practice, the following values are requested to be entered in the data record: Boiling temperature, percentage and molar fraction of alcohol in the residue, the distillate and the theoretical plates of the fractionation column.</indent>
+            
+<b>5. Evaluation and laboratory reports:</b>
+           
+• <indent=4%>If the values sent are correct, continue with the evaluation and then go on to generate the laboratory report.</indent>
+
+]]>
+
+        </procedure>
+        <tips>
+<![CDATA[Below you will find instructions on how to use the tools available in this laboratory practice.
+
+<b>Beaker:</b> a glass instrument used to hold samples of liquids for chemical studies.
+        
+<b>Thermometer:</b> an instrument which is sensitive to changes in temperature and is either analog or digital.
+
+<b>Condenser:</b> a piece of equipment with a double coating, in which the hotter material flows internally, and a refrigerant flows on the outside. This allows heat to be transferred and the temperature to decrease, which causes condensation.
+
+<b>Notebook:</b> the laboratory has a button which will allow you to access a notebook, where you can record any notes, observations, conclusions and your answers to the complementary questions associated with this practice.
+
+<b>Data registry:</b> use this window to record the data required by the situation. Take into account the units in which the data must be registered.
+
+<b>Restart situation:</b> clicking on the button with the trash can icon, which can be found on the left side of the simulator, will allow you to reset the simulator to its initial conditions.
+
+<b>Attempts: </b> the attempts indicator shows the number of times that you have tried to resolve the situation given. Note that the number of attempts may also increase if the data is incorrect or if certain procedural errors are made during the development of the laboratory practice. The number of attempts will influence the final grade given at the end of the laboratory.
+
+]]>
+    </tips>
+
+        <aula_code>QUIMEZ005</aula_code>
+
+    </practice5>
+  
+</data>

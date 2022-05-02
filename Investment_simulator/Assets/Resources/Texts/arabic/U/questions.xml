@@ -1,0 +1,158 @@
+<data>
+    <practice1>
+       <statement image="Images/question_sit_1_1" size="32" text="\opens [b] Scenario:
+
+\opens Two samples were taken from a second sample of alcoholic solutions for the boiler, one of which has a high percentage of ethanol and the other a very low percentage. Use this information to answer the following:">
+            <question size="32" text="\opens The boiling point of the sample with the greater percentage of ethanol will be:">
+                <option correct="False" size="24">\opens Closer to the boiling point of water, 100°C.</option>
+                <option correct="True" size="24">\opens Closer to the boiling point of pure ethanol, 78°C.</option>
+                <option correct="False" size="24">\opens All solutions of ethanol and water boil at an average temperature between 100°C and 78°C.</option>
+                <option correct="False" size="24">\opens It is not possible to determine the boiling point of either sample.</option>
+            </question>
+            <question size="32" text="\opens The boiling point of the sample with the lower percentage of ethanol will be:">
+                <option correct="True" size="24">\opens Closer to the boiling point of water, 100°C.</option>
+                <option correct="False" size="24">\opens Closer to the boiling point of pure ethanol, 78°C.</option>
+                <option correct="False" size="24">\opens All solutions of ethanol and water boil at an average temperature between 100°C and 78°C.</option>
+                <option correct="False" size="24">\opens It is not possible to determine the boiling point of either sample.</option>
+            </question>
+            <question size="32" text="\opens If one of the samples is around 96%, we can conclude that:">
+                <option correct="False" size="24">\opens Simple distillation will bring the concentration to 100%.</option>
+                <option correct="False" size="24">\opens Simple distillation will occur at a fixed temperature of 78.8°C.</option>
+                <option correct="True" size="24">\opens Simple distillation cannot separate the alcoholic component anymore.</option>
+                <option correct="False" size="24">\opens Simple distillation will occur at a temperature of 80°C.</option>
+            </question>
+        </statement>
+        <complementaries>
+            <question>What is an azeotrope?</question>
+            <question>Why does simple distillation not occur at a fixed temperature?</question>
+            <question>What is an ideal homogeneous mixture?</question>
+            <question>An example of an ideal homogeneous mixture would be:</question>
+        </complementaries>
+    </practice1>
+    
+     <practice2>
+        <statement image="Images/question_sit_2_1" size="32" text="\opens [b] Scenario:
+
+\opens Samples with the characteristics shown in the image have arrived at a residual water treatment plant. Use this information to answer the following questions:">
+            <question size="32" text="\opens Which sample or samples can be separated using decantation?">
+                <option correct="False" size="32">\opens Sample II.</option>
+                <option correct="False" size="32">\opens Sample I.</option>
+                <option correct="True" size="32">\opens Samples I and III.</option>
+                <option correct="False" size="32">\opens Samples I and II.</option>
+            </question>
+            <question size="32" text="\opens Which sample or samples can be efficiently separated using a separatory funnel?">
+                <option correct="False" size="32">\opens Sample II.</option>
+                <option correct="False" size="32">\opens Sample I.</option>
+                <option correct="True" size="32">\opens Samples I and III.</option>
+                <option correct="False" size="32">\opens Samples I and II.</option>
+            </question>
+          <question size="32" text="\opens For which sample or samples would it be most appropriate to give percentage of volume?">
+                <option correct="False" size="32">\opens Sample II.</option>
+                <option correct="False" size="32">\opens Sample I.</option>
+                <option correct="True" size="32">\opens Samples I and III.</option>
+                <option correct="False" size="32">\opens Samples I and II.</option>
+          </question>
+        </statement>
+        <complementaries>
+            <question>What is a homogeneous mixture? Give some examples.</question>
+            <question>What is a heterogeneous mixture? Give some examples.</question>
+            <question>Give some examples of heterogeneous mixtures from everyday life.</question>
+            <question>What are some other methods of separating heterogeneous liquids?</question>
+        </complementaries>
+    </practice2>
+
+     <practice3>
+        <statement image="Images/question_sit_3_1" size="32" text="\opens [b] Scenario:
+
+\opens 
+\opens Several companies have approached the laboratory seeking analyses for the accreditation of their products or services. The analyses include determining the percentage of solid in some samples. The situations are as follows:">
+            <question size="32" text="\opens A company which sells oxygen tanks to hospitals needs to determine the amount of solids in a batch of tanks to be sold. You would say that:">
+                <option correct="False" size="24">\opens It is not possible to measure solids in the air.</option>
+                <option correct="False" size="24">\opens It is not possible, as it is a homogeneous mixture.</option>
+                <option correct="True" size="24">\opens It is possible, because there may be particles dissolved in the gas.</option>
+                <option correct="False" size="24">\opens It is possible, because the solids would be left at the bottom of the tank.</option>
+            </question>
+            <question size="32" text="\opens A cement company wants to determine the amount of water that may be retained in the mixture (water and cement). You would say that:">
+                <option correct="True" size="24">\opens It is possible, as it is the same process as the one used to determine the amount of solids in a mixture, but the remaining percentage.</option>
+                <option correct="False" size="24">\opens It is not possible, because they want to determine the percentage of water and not solids.</option>
+                <option correct="False" size="24">\opens It is not possible, because the filter will become saturated and the sample will not be able to be filtered.</option>
+                <option correct="False" size="24">\opens It is possible, because cement does not retain water.</option>
+            </question>
+            <question size="32" text="\opens A company which makes motor oil wishes to compare the oils from their economy line and their premium line. You would say that:">
+                <option correct="False" size="24">\opens It is not possible, because the amount of solids can only be determined in water.</option>
+                <option correct="False" size="24">\opens It is possible, because it is the same procedure as the one used with water.</option>
+                <option correct="False" size="24">\opens It is possible, because oil contains solids after it has been used.</option>
+                <option correct="True" size="24">\opens It is not possible, because the separation method cannot be filtration.</option>
+            </question>
+        </statement>
+        <complementaries>
+            <question>What are some other solid-liquid mixtures that can be found in our everyday lives?</question>
+            <question>What are some other methods of separating solid-liquid mixtures?</question>
+            <question>Can the filtration method only be used with solid-liquid mixtures? Mention other uses.</question>
+            <question>Can the filtration method be used with homogeneous mixtures? Justify your answer.</question>
+        </complementaries>
+    </practice3>
+
+  <practice4>
+        <statement image="Images/question_sit_4_1" size="32" text="\opens [b] Scenario:
+
+\opens Three types of samples have arrived at the laboratory. As you can see in the image, these samples correspond to mixtures of: earth-water (III), alcohol-water (II) and oil-agua (I). Use this information to answer the following questions:">
+            <question size="32" text="\opens Which sample can be analyzed using evaporation?">
+                <option correct="False" size="32">\opens Sample II.</option>
+                <option correct="True" size="32">\opens Sample III.</option>
+                <option correct="False" size="32">\opens Sample I.</option>
+                <option correct="False" size="32">\opens None.</option>
+            </question>
+            <question size="32" text="\opens For which sample will the mass/volume percentage be relevant?">
+                <option correct="False" size="32">\opens I, because there are two liquids.</option>
+                <option correct="True" size="32">\opens II, because there is a solid in the mixture.</option>
+                <option correct="False" size="32">\opens III, because it is heterogeneous.</option>
+                <option correct="False" size="32">\opens None.</option>
+            </question>
+          <question size="32" text="\opens The temperature required for the evaporation is:">
+                <option correct="False" size="24">\opens Over 100°C, because water boils at this temperature.</option>
+                <option correct="False" size="24">\opens Between 20°C and 25°C, because this is usually room temperature.</option>
+                <option correct="True" size="24">\opens Between 70°C and 80°C, in order for the evaporation to occur gently without changes in the components of the mixture.</option>
+                <option correct="False" size="24">\opens At the boiling point of the water at the place where the laboratory is located. </option>
+          </question>
+        </statement>
+        <complementaries>
+            <question>What is a heterogeneous mixture? Give examples.</question>
+            <question>What are some other methods of separating heterogeneous mixtures?</question>
+            <question>What type of mixtures are water-salt and water-alcohol? Which one can be separated using evaporation?</question>
+            <question>Give some other examples of heterogeneous mixtures that can be found in our everyday lives.</question>
+        </complementaries>
+    </practice4>
+
+    <practice5>
+        <statement image="Images/question_sit_5_1" size="32" text="\opens [b] Scenario:
+
+\opens A distiller with a fractionating column based on the one used in the laboratory is going to be built, but it is going to have some modifications. You have been made responsible for this new distillation plant, and you will need to argue whether or not the following changes increase the efficiency of the distillation:">
+            <question size="32" text="\opens A thermoregulator has been proposed for the boiler, in order to keep the temperature stable at around 95°C:">
+                <option correct="False" size="21">\opens This does not help, because the sample might boil at a higher temperature.</option>
+                <option correct="True" size="21">\opens This helps, because as it is not the boiling point of water and is higher than the boiling point of alcohol, it guarantees that the vapors are purer.</option>
+                <option correct="False" size="21">\opens This has no effect, because the boiling point of ethanol is 78°C.</option>
+                <option correct="False" size="21">\opens None of the above is true.</option>
+            </question>
+            <question size="32" text="\opens Two ideas have been suggested for the fractionating column: inserting either some steel cones similar to the column used in the laboratory, or using some stainless steel rings:">
+                <option correct="False" size="21">\opens This has no effect. Both options would result in a high efficiency, because they stop the vapor from passing.</option>
+                <option correct="True" size="21">\opens The stainless steel rings would create a greater impediment for the rising vapor and there would be more phase change plates.</option>
+                <option correct="False" size="21">\opens The cones would not leave enough interstices for the vapor to pass and for there to be phase change plates at the same time.</option>
+                <option correct="False" size="21">\opens None of the previous options would contribute towards the efficiency of the distillation, and they could even make it worse.</option>
+            </question>
+          <question size="32" text="\opens It has been suggested that just after condensation, the liquid could be deviated so that a part of the distillate returns to the boiler, thereby creating a reflux:">
+                <option correct="False" size="21">\opens This has no effect, because all of the alcohol in the sample is still removed.</option>
+                <option correct="False" size="21">\opens This helps, because only a small amount of distillate is obtained, as part of it is returned to the boiler.</option>
+                <option correct="True" size="21">\opens This helps, because when the product is distilled again, the percentage of ethanol improves.</option>
+                <option correct="False" size="21">\opens None of the above is true.</option>
+          </question>
+        </statement>
+        <complementaries>
+            <question>What is the difference between simple distillation and fractional distillation?</question>
+            <question>Which type of distillation is used industrially, simple or fractional?</question>
+            <question>What is a theoretical plate in distillation?</question>
+            <question>Why is it necessary to control the temperature in the upper part of the column, and not in the lower part?</question>
+        </complementaries>
+    </practice5>
+  
+</data>

@@ -1,0 +1,85 @@
+<data>    
+    <instructions>En este laboratorio tiene disponible 5 prácticas de laboratorio y una libre para los conceptos relacionados con los poligonos. En estas prácticas encontrará elementos y entornos para el diseño de llaves de seguridad, una exploración espacial, diseño de un tanque para peces entre otros.</instructions>
+    
+    <practice1>
+        <name_practice>CONSTRUCCIÓN DE UNA LLAVE DE SEGURIDAD - PERÍMETRO DE UN POLÍGONO REGULAR.</name_practice>
+        <name_practice_>Construcción de una llave de seguridad - Perímetro de un polígono regular.</name_practice_>
+        
+        <description_practice>POR Usted es el diseñador y operario del equipo de seguridad de una fábrica de medidores eléctricos y se le ha encargado la fabricación de una llave única para que permitirá al cliente que adquiera un macromedidor abrirlo para visualizar las bobinas de medida y el circuito integrado; desde la línea de producción se define de forma aleatoria la forma del cabezal del tornillo de seguridad, por lo cual su tarea será identificar la forma de la llave necesaria, realizar mediciones y establecer los parámetros para la fabricación de la llave.</description_practice>
+
+      <ecuaciones>
+\opens Perímetro:
+
+\opens{Perímetro} = \sum_{i=1}^{n}\opens{longitud lado i}
+
+\opens Donde,
+\opens n = número de lados del polígono
+
+      </ecuaciones>
+        
+        <procedure>
+          <![CDATA[ <b>1. Identificación del escenario</b>
+            
+•<indent=4%>Macromedidor</indent>
+•<indent=4%>Pie de rey</indent>
+•<indent=4%>Escritorio</indent>
+•<indent=4%>CNC</indent>
+•<indent=4%>Cuaderno de notas.</indent>
+•<indent=4%>Calculadora.</indent>
+            
+<b>2.	Identificación del polígono</b>
+                
+• <indent=4%>Para iniciar la práctica de laboratorio de clic sobre el macromedidor y posteriormente seleccione cada uno de los tornillos de seguridad para visualizar la forma poligonal de la llave que debe ser fabricada.</indent>
+• <indent=4%>Al dar clic sobre cualquiera de los tornillos de seguridad se generará una vista ampliada correspondiente al perno de seguridad, en este acercamiento se desplegará de forma automática un pie de rey para realizar la medida entre las caras del cabezal del perno.</indent>
+• <indent=4%>Arrastre el pie de rey a uno de los lados y arrastre la sección móvil para ajustar los puntos de medida (vértices del polígono)</indent>
+• <indent=4%>Desde la sección del acercamiento, visualice la medida.</indent>
+
+
+
+<b>3. Fabricación de la llave de seguridad</b>
+• <indent=4%>Desde el escenario principal seleccione la máquina de corte CNC.</indent>
+• <indent=4%>Desde la pantalla de control del sistema de corte defina los parámetros de corte del cabezal de la llave para abrir el macromedidor.</indent>
+• <indent=4%>Defina también la forma del polígono que se cortará, debe dar clic en las flechas derecha o izquierda para cambiar la forma y clic en el símbolo central para confirmar la figura.</indent>
+• <indent=4%>Para realizar el proceso de corte se debe da clic en “ACEPTAR”.</indent>
+• <indent=4%>Una vez se fabrique la llave (se finaliza la animación), aparecerá en el escritorio de la llave.</indent>
+• <indent=4%>Seleccione la llave fabricada y arrástrela sobre el macromedidor para abrir el macromedidor.</indent>
+
+
+<b>4. Registro de datos </b>
+    
+
+• <indent=4%>Una vez ingresados los datos solicitados, haga clic en el botón “Verificar” para comprobar si están correctos.</indent>
+
+    
+<b>5.	Preguntas complementarias, evaluación y reporte de laboratorio</b>
+   
+• <indent=4%>Haga clic en el botón Cuaderno de notas y responda las preguntas complementarias.</indent>
+• <indent=4%>Una vez haya completado el registro de datos, haga clic en el botón Reporte para generar el reporte de la práctica de laboratorio.</indent>
+• <indent=4%>Responda las preguntas conceptuales y genere el reporte de laboratorio.</indent>
+            
+<b>Evaluación y reporte de laboratorio</b>
+           
+• <indent=4%>Una vez registrados los datos del ejercicio adicional, puede continuar con la evaluación y la generación del reporte de laboratorio.</indent>
+   
+]]>
+
+        </procedure>
+        <tips>
+  <![CDATA[A continuación, encuentra instrucciones sobre cómo usar las herramientas disponibles para esta práctica de laboratorio.
+
+<b>Macromedidor:</b> los medidores de energía son aparatos usados para la medida del consumo de energía. Existen varios tipos de medidores dependiendo de su construcción, tipo de energía que mide, clase de precisión y conexión a la red eléctrica.
+        
+<b>CNC:</b> En una máquina CNC una computadora controla el movimiento de la mesa, el carro y el husillo. Una vez programada la máquina, ésta ejecuta todas las operaciones por sí sola, sin necesidad de que el operador esté manejándola. Esto permite aprovechar mejor el tiempo del personal para que sea más productivo.
+
+<b>Pie de rey:</b> Instrumento para medir dimensiones de objetos relativamente pequeños, desde centímetros hasta fracciones de milímetros (1/10de milímetro, 1/20 de milímetro, 1/50 de milímetro).
+
+<b>Registro de datos: </b> use esta ventana para registrar los datos calculados, que fueron solicitados en la situación planteada. Tenga en cuenta las magnitudes de los valores a registrar.
+
+<b>Reiniciar la situación:</b>con el botón “papelera” situado al costado izquierdo del simulador es posible reestablecer la simulación a las condiciones iniciales.
+
+<b>Intentos:</b>el indicador de intentos muestra el número de veces que ha intentado resolver la situación planteada. Tenga presente que estos intentos pueden también aumentar si se hace verificación de datos con resultados incorrectos o si se comenten ciertos errores procedimentales durante el desarrollo de la práctica de laboratorio. La cantidad de intentos influirá en la calificación final obtenida al terminar el laboratorio.
+
+]]></tips>
+        <aula_code>CALMAT001</aula_code>
+    </practice1>
+</data>

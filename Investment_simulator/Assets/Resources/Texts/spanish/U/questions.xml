@@ -1,0 +1,32 @@
+<data>
+    <practice1>
+       <statement image="Images/question_sit_1_1" size="32" text="\opens [b] Enunciado:
+
+\opens En geometría, un polígono es una figura geométrica plana compuesta por una secuencia finita de segmentos rectos consecutivos que encierran una región en el plano.">
+            <question size="32" text="\opens ¿Qué es un polígono?">
+                <option correct="True" size="28">\opens Una región del plano formada por una poligonal cerrada y todos los puntos interiores a ella.</option>
+                <option correct="False" size="28">\opens Una línea poligonal cerrada</option>
+                <option correct="False" size="28">\opens Una línea formada por varios segmentos consecutivos.</option>
+                <option correct="False" size="28">\opens Ninguna de las opciones</option>
+            </question>
+            <question size="32" text="\opens El ángulo “A” corresponde a un:">
+                <option correct="False" size="28">\opens Un ángulo interior</option>
+                <option correct="True" size="28">\opens Un ángulo central</option>
+                <option correct="False" size="28">\opens Un ángulo externo</option>
+                <option correct="False" size="28">\opens Ninguna de las anteriores</option>
+            </question>
+            <question size="32" text="\opens El ángulo “B” corresponde a:">
+                <option correct="True" size="28">\opens Un ángulo interior</option>
+                <option correct="False" size="28">\opens Un ángulo central</option>
+                <option correct="False" size="28">\opens Un ángulo externo</option>
+                <option correct="False" size="28">\opens Ninguna de las opciones</option>
+            </question>
+        </statement>
+        <complementaries>
+            <question>¿Enliste los tipos de polígonos conoce?</question>
+            <question>¿Cuál es la diferencia entre polígonos regulares e irregulares?</question>
+            <question>¿Qué es un polígono convexo?.</question>
+            <question>¿qué es un polígono cóncavo?</question>
+        </complementaries>
+    </practice1>
+</data>

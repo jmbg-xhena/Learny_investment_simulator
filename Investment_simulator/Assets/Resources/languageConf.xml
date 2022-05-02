@@ -1,0 +1,6 @@
+<data>
+    <language name="Español" code="Spanish" folder="Texts/spanish" isRTL="false" />
+    <language name="Inglés" code="English" folder="Texts/english" isRTL="false" />
+    <language name="Portugues" code="Portuguese" folder="Texts/portuguese" isRTL="false" />
+    <language name="Arabe" code="Arabic" folder="Texts/arabic" isRTL="true" />
+</data>

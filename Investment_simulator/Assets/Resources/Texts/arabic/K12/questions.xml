@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+    <practice1>
+       <statement image="Images/question_sit_1_1" size="32" text="\opens{السيناريو:}
+
+\opens{تم أخذ عينتين من المحاليل الكحولية ليتم تعريضها للغليان، إحداها تحتوي على نسبة عالية من الكحول الاثيلي(الإيثانول) اما الأخرى تحتوي على نسبة منخفضة للغاية. استخدم هذه المعلومات للإجابة على ما يلي}">
+            <question size="32" text="\opens{درجة غليان العينة ذات النسبة الأكبر من الإيثانول ستكون:}">
+                <option correct="False" size="24">\opens{أقرب إلى درجة غليان الماء، 100 درجة مئوية}</option>
+                <option correct="True" size="24">\opens{أقرب إلى درجة غليان الإيثانول النقي، 78 درجة مئوية}</option>
+                <option correct="False" size="24">\opens{يغلي كلا المحلولين من الإيثانول والماء عند درجة حرارة تتراوح بين 100 درجة مئوية و78 درجة مئوية.}</option>
+                <option correct="False" size="24">\opens{لا يمكن تحديد درجة غليان العيّنة.}</option>
+            </question>
+            <question size="32" text="\opens{ درجة غليان العينة ذات نسبة أقل من الإيثانول ستكون:}">
+                <option correct="True" size="24">\opens{أقرب إلى درجة غليان الماء، 100 درجة مئوية.}</option>
+                <option correct="False" size="24">\opens{أقرب إلى درجة غليان الإيثانول النقي، 78 درجة مئوية}</option>
+                <option correct="False" size="24">\opens{يغلي كل من الإيثانول والماء عند درجة حرارة تتراوح بين 100 درجة مئوية و78 درجة مئوية.}</option>
+                <option correct="False" size="24">\opens{لا يمكن تحديد درجة غليان العيّنة.}</option>
+            </question>
+            <question size="32" text="\opens{إذا كان تركيز إحدى العينات حوالي 96٪، فيمكننا أن نستنتج ما يلي:}">
+                <option correct="False" size="24">\opens{التقطير البسيط سيزيد التركيز ليصل إلى 100٪}</option>
+                <option correct="False" size="24">\opens{سوف يحدث التقطير البسيط عند درجة حرارة ثابتة تبلغ 78.8 درجة مئوية}</option>
+                <option correct="True" size="24">\opens{لا يمكن للتقطير البسيط فصل المكون الكحولي بعد الآن}</option>
+                <option correct="False" size="24">\opens{سيحدث التقطير البسيط عند درجة حرارة 80 درجة مئوية}</option>
+            </question>
+        </statement>
+        <complementaries>
+            <question>ما هو المحلول ثابت الغليان؟</question>
+            <question>لماذا لا يحدث التقطير البسيط عند درجة حرارة ثابتة؟</question>
+            <question>ما هو المخلوط المتجانس المثالي؟</question>
+            <question>مثال على مزيج متجانس مثالي سيكون:</question>
+        </complementaries>
+    </practice1>
+    
+     <practice2>
+        <statement image="Images/question_sit_2_1" size="32" text="\opens{السيناريو}:
+
+\opens{وصلت العينات ذات الخصائص الموضحة في الصورة إلى محطة معالجة مياه الصرف الصحي. استخدم هذه المعلومات للإجابة على الأسئلة التالية:}">
+            <question size="32" text="\opens{أيا من العينات يمكن فصلها باستخدام الترويق؟}">
+                <option correct="False" size="32">\opens{العينة 2}</option>
+                <option correct="False" size="32">\opens{العينة 1}</option>
+                <option correct="True" size="32">\opens{العينة 1 و3}</option>
+                <option correct="False" size="32">\opens{العينة 1 و2}</option>
+            </question>
+            <question size="32" text="\opens{ما هي العينة أو العينات التي يمكن فصلها بكفاءة باستخدام قمع الفصل؟}">
+                <option correct="False" size="32">\opens{العينة 2}</option>
+                <option correct="False" size="32">\opens{العينة 1}</option>
+                <option correct="True" size="32">\opens{العينة 1و3}</option>
+                <option correct="False" size="32">\opens{العينة 1و2}</option>
+            </question>
+          <question size="32" text="\opens{ما هي العينة أو العينات الأكثر ملاءمة لحساب النسبة المئوية للحجم؟}">
+                <option correct="False" size="32">\opens{العينة 2}</option>
+                <option correct="False" size="32">\opens{العينة 1}</option>
+                <option correct="True" size="32">\opens{العينة 1و3}</option>
+                <option correct="False" size="32">\opens{العينة 1و2}</option>
+          </question>
+        </statement>
+        <complementaries>
+            <question>ما هو الخليط المتجانس؟ أعط بعض الأمثلة</question>
+            <question>ما هو الخليط غير المتجانس؟ أعط بعض الأمثلة</question>
+            <question>أعط بعض الأمثلة عن المخاليط غير المتجانسة من حياتك اليومية</question>
+            <question>اذكر بعض الطرق الأخرى لفصل السوائل غير المتجانسة؟</question>
+        </complementaries>
+    </practice2>
+
+     <practice3>
+        <statement image="Images/question_sit_3_1" size="32" text="\opens{السيناريو}
+        
+\opens{ تواصلت العديد من الشركات بالمختبر بحثًا عن تحليلات لاعتماد منتجاتها أو خدماتها. تتضمن التحليلات تحديد النسبة المئوية للمواد الصلبة في بعض العينات. الدراسات وضحت الاتي}">
+            <question size="32" text="\opens{تحتاج الشركة التي تبيع خزانات الأكسجين للمستشفيات إلى تحديد كمية المواد الصلبة في مجموعة من الخزانات المراد بيعها. لذلك يمكنك استنتاج أن:}">
+                <option correct="False" size="24">\opens{لا يمكن قياس كمية المواد الصلبة في الهواء.}</option>
+                <option correct="False" size="24">\opens{لا يمكن قياس كمية المواد الصلبة لأنه خليط متجانس.}</option>
+                <option correct="True" size="24">\opens{من الممكن قياس كمية المواد الصلبة، لأنه قد يكون هناك جزيئات مذابة في الغاز.}</option>
+                <option correct="False" size="24">\opens{من الممكن قياس كمية المواد الصلبة، لأن المواد الصلبة ستترك في قاع الخزان.}</option>
+            </question>
+            <question size="32" text="\opens{تريد شركة أسمنت تحديد كمية المياه التي يمكن الاحتفاظ بها في خليط من (الماء والأسمنت). فماذا تتوقع:}">
+                <option correct="True" size="24">\opens{من الممكن تحديدها، لأنها نفس العملية المستخدمة لتحديد كمية المواد الصلبة في الخليط، ولكن النسبة المتبقية.}</option>
+                <option correct="False" size="24">\opens{لا يمكن تحديدها لأنهم يريدون تحديد النسبة المئوية للمياه وليس المواد الصلبة.}</option>
+                <option correct="False" size="24">\opens{لا يمكن تحديدها، لأن المادة الناتجة عن الترشيح ستصبح مشبعة ولا يمكن ترشيح العينة.}</option>
+                <option correct="False" size="24">\opens{من الممكن تحديدها، لأن الأسمنت لا يحتفظ بالماء.}</option>
+            </question>
+            <question size="32" text="\opens{شركة تصنع زيت المحركات وترغب في مقارنة الزيوت التي تنتجها سواء من خط الانتاج الاقتصادي والاخر الممتاز. فماذا تتوقع؟}">
+                <option correct="False" size="24">\opens{هذا غير ممكن، لأن كمية المواد الصلبة لا يمكن تحديدها إلا في الماء.}</option>
+                <option correct="False" size="24">\opens{يمكن المقارنة لأنها ستتم من خلال اتباع نفس الإجراءات المستخدمة مع الماء}</option>
+                <option correct="False" size="24">\opens{من الممكن ذلك، لأن الزيت يحتوي على مواد صلبة بعد استخدامه}</option>
+                <option correct="True" size="24">\opens{هذا غير ممكن، لأنه لا يمكن الاعتماد على عملية الترشيح في الفصل}</option>
+            </question>
+        </statement>
+        <complementaries>
+            <question>ما هي بعض المخاليط السائلة-الصلبة الأخرى التي يمكن العثور عليها في حياتنا اليومية؟</question>
+            <question>ما هي بعض الطرق الأخرى لفصل المخاليط الصلبة-السائلة؟</question>
+            <question>هل يمكن استخدام طريقة الترشيح فقط مع المخاليط الصلبة-السائلة؟ اذكر استخدامات أخرى.</question>
+            <question>هل يمكن استخدام طريقة الترشيح مع المخاليط المتجانسة؟ برر جوابك.</question>
+        </complementaries>
+    </practice3>
+
+  <practice4>
+        <statement image="Images/question_sit_4_1" size="32" text="\opens{السيناريو}
+
+\opens{وصلت ثلاثة أنواع من العينات إلى المختبر. كما ترى في الصورة، تتوافق هذه العينات مع خليط من: ماء الأرض (III) ، الماء والكحول (II) وزيت أجوا (I). استخدم هذه المعلومات للإجابة على الأسئلة التالية:}">
+            <question size="32" text="\opens{ما هي العينة التي يمكن تحليلها باستخدام التبخر؟}">
+                <option correct="False" size="32">\opens{العينة2}</option>
+                <option correct="True" size="32">\opens{العينة3}</option>
+                <option correct="False" size="32">\opens{العينة1}</option>
+                <option correct="False" size="32">\opens{لا توجد إجابة صحيحة}</option>
+            </question>
+            <question size="32" text="\opens{لأي عينة يمكن استخدام العلاقة الأتية (الكتلة / الحجم):}">
+                <option correct="False" size="32">\opens{1، لأن هناك نوعان من السوائل}</option>
+                <option correct="True" size="32">\opens{2، لأن هناك مادة صلبة في الخليط.}</option>
+                <option correct="False" size="32">\opens{3، لأنه مخلوط غير متجانس.}</option>
+                <option correct="False" size="32">\opens{لا توجد إجابة صحيحة.}</option>
+            </question>
+          <question size="32" text="\opens{درجة الحرارة المطلوبة للتبخر هي:}">
+                <option correct="False" size="24">\opens{أكثر من 100 درجة مئوية، لأن الماء يغلي عند درجة الحرارة هذه.}</option>
+                <option correct="False" size="24">\opens{بين 20و 25 درجة مئوية، لأن هذه عادة ما تكون درجة حرارة الغرفة.}</option>
+                <option correct="True" size="24">\opens{بين 70 و80 درجة مئوية، حتى يحدث التبخر دون تغيير في مكونات الخليط.}</option>
+                <option correct="False" size="24">\opens{عند درجة غليان الماء في المكان الذي يوجد فيه المختبر.}</option>
+          </question>
+        </statement>
+        <complementaries>
+            <question>ما هو الخليط غير المتجانس؟ أعط أمثلة</question>
+            <question>ما هي بعض الطرق الأخرى لفصل المخاليط غير المتجانسة؟</question>
+            <question>ما هو نوع المخاليط المكون من (الماء والملح) و(الماء والكحول)؟ أيا منهم يمكن فصله باستخدام التبخر؟</question>
+            <question>أعط بعض الأمثلة الأخرى للمخاليط غير المتجانسة التي يمكن العثور عليها في حياتنا اليومية.</question>
+        </complementaries>
+    </practice4>
+
+    <practice5>
+        <statement image="Images/question_sit_5_1" size="32" text="\opens{السيناريو}
+
+\opens{انه من المخطط انتاج جهاز تقطير ذو عمود تجزئة يعتمد على عمود التقطير المستخدم في المختبر، ولكن سيكون له بعض التعديلات. تم تعيينك لتكون مسؤولاً عن هذه المحطة الجديدة، وبالتالي ستواجه بعض التساؤلات فيما إذا كانت التغييرات التالية تزيد من كفاءة التقطير أم لا}">
+            <question size="32" text="\opens{تم اقتراح استخدام منظم حراري للغلاية، من أجل الحفاظ على استقرار درجة الحرارة عند حوالي 95 درجة مئوية:}">
+                <option correct="False" size="21">\opens{لا يعد اقتراح فعال، لأن العينة قد تغلي عند درجة حرارة أعلى.}</option>
+                <option correct="True" size="21">\opens{اقتراح فعال، لأن 95 درجة مئوية ليست درجة غليان الماء كما انها أعلى من درجة غليان الكحول، وبالتالي ان ذلك يضمن تصاعد أبخرة نقية. }</option>
+                <option correct="False" size="21">\opens{ليس له تأثير، لأن درجة غليان الإيثانول هي 78 درجة مئوية.}</option>
+                <option correct="False" size="21">\opens{لا شيء مما سبق الصحيح.}</option>
+            </question>
+            <question size="32" text="\opens{تم اقتراح فكرتين لعمود التجزئة: الأولى هي اضافة بعض المخاريط الفولاذية المشابهة للعمود المستخدم في المختبر، الثانية هي استخدام بعض حلقات الفولاذ المقاوم للصدأ:}">
+                <option correct="False" size="21">\opens{ليس له تأثير. حيث يؤدي كلا الخيارين إلى كفاءة عالية، لأنهما يمنعان البخار من المرور.}</option>
+                <option correct="True" size="21">\opens{سوف تخلق حلقات الفولاذ المقاوم للصدأ عائقًا أكبر للبخار المتصاعد مما يؤدي الى المزيد من المواد المقطرة.}</option>
+                <option correct="False" size="21">\opens{لن تترك المخاريط ما يكفي من الفجوات لتمرير البخار كما لا تعطي فرصة لحدوث التقطير التجزيئي في نفس الوقت.}</option>
+                <option correct="False" size="21">\opens{لن يساهم أي من الخيارات السابقة في كفاءة التقطير بل ويمكن أن يجعلها أسوأ.}</option>
+            </question>
+          <question size="32" text="\opens{تم اقتراح أنه بعد التكثيف مباشرة، يمكن انحراف السائل بحيث يعود جزء من المادة المقطرة إلى الغلاية، مما يؤدي إلى حدوث التقطير مرة أخرى:}">
+                <option correct="False" size="21">\opens{اقتراح خاطئ، لأن كل كمية الكحول في العينة قد تم إزالته}</option>
+                <option correct="False" size="21">\opens{اقتراح فعال، لأنه يتم الحصول على كمية صغيرة فقط من المادة المقطرة، حيث يتم إرجاع جزء منه إلى الغلاية.}</option>
+                <option correct="True" size="21">\opens{اقتراح فعال، لأنه عندما يتم تقطير المنتج مرة أخرى، تزيد نسبة الإيثانول.}</option>
+                <option correct="False" size="21">\opens{لا شيء مما سبق الصحيح.}</option>
+          </question>
+        </statement>
+        <complementaries>
+            <question>ما الفرق بين التقطير البسيط والتقطير التجزيئي؟</question>
+            <question>ما نوع التقطير المستخدم تقطير بسيط أم تجزيئي؟</question>
+            <question>ما هو طبق التقطير النظري؟</question>
+            <question>لماذا يعد التحكم في درجة الحرارة في الجزء العلوي من العمود ضروري أكثر من التحكم فيها في الجزء السفلي؟</question>
+        </complementaries>
+    </practice5>
+  
+</data>
