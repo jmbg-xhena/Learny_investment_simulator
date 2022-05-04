@@ -39419,9 +39419,14 @@ MonoBehaviour:
   tec_opportunityCostNonViable_min: 4.8
   tec_opportunityCostNonViable_max: 9.6
   tec_annualCashFlow: 0
+  tec_annualCashFlowRate1: 2.62
+  tec_annualCashFlowRate2: 3.39
+  tec_annualCashFlowRate3: 4.1
   tec_annualPersonnelExpenses: 0
   tec_annualAdvertisingExpenses: 0
   tec_annualSales: 0
+  tec_min_tir: 6
+  tec_max_tir: 8
   rS_initialInvest: 0
   rS_initialInvest_min: 70000
   rS_initialInvest_max: 75000
@@ -39434,9 +39439,14 @@ MonoBehaviour:
   rS_salePrice_min: 80500
   rS_salePrice_max: 86250
   rS_annualCashFlow: 0
+  rS_annualCashFlowRate1: 2.4
+  rS_annualCashFlowRate2: 3.04
+  rS_annualCashFlowRate3: 3.6
   rS_annualMaintenanceExpenses: 0
   rS_annualTaxExpense: 0
   rS_AnnualLease: 0
+  rS_min_tir: 11
+  rS_max_tir: 13
   manu_initialInvest: 0
   manu_initialInvest_min: 125000
   manu_initialInvest_max: 135000
@@ -39449,10 +39459,15 @@ MonoBehaviour:
   manu_unitsProducedAnnually_min: 280
   manu_unitsProducedAnnually_max: 320
   manu_annualCashFlow: 0
+  manu_annualCashFlowRate1: 2.58
+  manu_annualCashFlowRate2: 3.31
+  manu_annualCashFlowRate3: 3.99
   manu_unitCostProduction: 0
   manu_annualOperatingExpenses: 0
   manu_annualAdvertisingExpenses: 0
   manu_unitSellingPrice: 0
+  manu_min_tir: 7
+  manu_max_tir: 9
   fin_initialInvest: 0
   fin_initialInvest_min: 50000
   fin_initialInvest_max: 55000
@@ -39462,6 +39477,11 @@ MonoBehaviour:
   fin_opportunityCostNonViable_min: 6.4
   fin_opportunityCostNonViable_max: 12
   fin_annualProduction: 0
+  fin_annualProductionRate1: 2.53
+  fin_annualProductionRate2: 3.24
+  fin_annualProductionRate3: 3.89
+  fin_min_tir: 8
+  fin_max_tir: 10
 --- !u!1 &1155691714
 GameObject:
   m_ObjectHideFlags: 0
