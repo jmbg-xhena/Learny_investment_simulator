@@ -165,7 +165,7 @@ public class MenusUI : MonoBehaviour
 
         //Real state Main Menu
         rS_mm_Title1.text = Manager.Instance.globalTexts.SelectSingleNode("/data/element[@title='Main_Title1']").InnerText;
-        rS_mm_Title2.text = Manager.Instance.globalTexts.SelectSingleNode("/data/element[@title='Main_Title2']").InnerText;
+        rS_mm_Title2.text = Manager.Instance.globalTexts.SelectSingleNode("/data/element[@title='Main_TitleRS']").InnerText;
         rS_mm_ButtonDescription.text = Manager.Instance.globalTexts.SelectSingleNode("/data/element[@title='Main_ButtonDescription']").InnerText;
         rS_ButtonCashFlow.text = Manager.Instance.globalTexts.SelectSingleNode("/data/element[@title='Main_ButtonCashFlow']").InnerText;
         rS_ButtonFinantialIndicators.text = Manager.Instance.globalTexts.SelectSingleNode("/data/element[@title='Main_ButtonFinantialIndicators']").InnerText;
@@ -173,9 +173,9 @@ public class MenusUI : MonoBehaviour
 
         //Real State Project Description Menu
         rS_pd_Title.text = Manager.Instance.globalTexts.SelectSingleNode("/data/element[@title='pd_Title']").InnerText;
-        rS_pd_Icon.text = Manager.Instance.globalTexts.SelectSingleNode("/data/element[@title='pd_Icon']").InnerText;
+        rS_pd_Icon.text = Manager.Instance.globalTexts.SelectSingleNode("/data/element[@title='pd_Icon_RS']").InnerText;
         rS_pd_Objective_title.text = Manager.Instance.globalTexts.SelectSingleNode("/data/element[@title='pd_Objective_title']").InnerText;
-        rS_pd_Objective.text = Manager.Instance.globalTexts.SelectSingleNode("/data/element[@title='pd_Title']").InnerText;
+        rS_pd_Objective.text = Manager.Instance.globalTexts.SelectSingleNode("/data/element[@title='pd_Objective_Rs']").InnerText;
         rS_pd_InitialInvestment_title.text = Manager.Instance.globalTexts.SelectSingleNode("/data/element[@title='pd_InitialInvestment_title']").InnerText;
         rS_pd_InitialInvestment.text = data.rS_initialInvest.ToString();
         rS_pd_Oportunity_Cost_title.text = Manager.Instance.globalTexts.SelectSingleNode("/data/element[@title='pd_Oportunity_Cost_title']").InnerText;
@@ -230,29 +230,29 @@ public class MenusUI : MonoBehaviour
         rS_cf1_TotalIncoming2.text = rS_cf2_TotalIncoming2.text = rS_cf3_TotalIncoming2.text =
         rS_cf1_TotalIncoming3.text = rS_cf2_TotalIncoming3.text = rS_cf3_TotalIncoming3.text =
         rS_cf2_TotalIncoming4.text = rS_cf3_TotalIncoming4.text = rS_cf3_TotalIncoming5.text = 
-        ((data.rS_salePrice + data.rS_AnnualLease) / data.expectedProfitTime).ToString();
+        (data.rS_salePrice + data.rS_AnnualLease).ToString();
 
         rS_cf1_TotalExpenses1.text = rS_cf2_TotalExpenses1.text = rS_cf3_TotalExpenses1.text =
         rS_cf1_TotalExpenses2.text = rS_cf2_TotalExpenses2.text = rS_cf3_TotalExpenses2.text =
         rS_cf1_TotalExpenses3.text = rS_cf2_TotalExpenses3.text = rS_cf3_TotalExpenses3.text =
         rS_cf2_TotalExpenses4.text = rS_cf3_TotalExpenses4.text = rS_cf3_TotalExpenses5.text =
-        ((data.rS_annualMaintenanceExpenses + data.rS_annualTaxExpense) / data.expectedProfitTime).ToString();
+        (data.rS_annualMaintenanceExpenses + data.rS_annualTaxExpense).ToString();
         
         rS_cf1_CashFlow1.text = rS_cf2_CashFlow1.text = rS_cf3_CashFlow1.text =
         rS_cf1_CashFlow2.text = rS_cf2_CashFlow2.text = rS_cf3_CashFlow2.text =
         rS_cf1_CashFlow3.text = rS_cf2_CashFlow3.text = rS_cf3_CashFlow3.text =
         rS_cf2_CashFlow4.text = rS_cf3_CashFlow4.text = rS_cf3_CashFlow5.text =
-        (data.rS_annualCashFlow / data.expectedProfitTime).ToString();
+        data.rS_annualCashFlow_answer.ToString();
         //
 
         //Finantial indicators
         rS_fi_Title.text = Manager.Instance.globalTexts.SelectSingleNode("/data/element[@title='fi_Title']").InnerText;
         rS_fi_TirInterpolateTitle.text = Manager.Instance.globalTexts.SelectSingleNode("/data/element[@title='fi_TirInterpolateTitle']").InnerText;
         rS_fi_MinimumRateTitle.text = Manager.Instance.globalTexts.SelectSingleNode("/data/element[@title='fi_MinimumRateTitle']").InnerText;
-        rS_fi_MinimumRate.text = "0";
+        rS_fi_MinimumRate.text = data.rS_min_tir.ToString();
         rS_fi_TIRTitle.text = Manager.Instance.globalTexts.SelectSingleNode("/data/element[@title='fi_TIRTitle']").InnerText;
         rS_fi_MaximumRateTitle.text = Manager.Instance.globalTexts.SelectSingleNode("/data/element[@title='fi_MaximumRateTitle']").InnerText;
-        rS_fi_MaximumRate.text = "0";
+        rS_fi_MaximumRate.text = data.rS_max_tir.ToString();
         rS_fi_VANOportunity.text = Manager.Instance.globalTexts.SelectSingleNode("/data/element[@title='fi_VANOportunity']").InnerText;
         rS_fi_VANTitle.text = Manager.Instance.globalTexts.SelectSingleNode("/data/element[@title='fi_VANTitle']").InnerText;
         rS_fi_Save.text = Manager.Instance.globalTexts.SelectSingleNode("/data/element[@title='fi_Save']").InnerText;

@@ -45,7 +45,12 @@ public class SimulatorRandomData : MonoBehaviour
     public float tec_annualSales; //calcular con las otras variables
     public float tec_min_tir = 6;
     public float tec_max_tir = 8;
-    
+    public float tec_annualCashFlow_answer;
+    public float tec_VAN;
+    public float tec_VANPos;
+    public float tec_VANNeg;
+    public float tec_TIR;
+
     [Header("Real estate")]
     public int rS_initialInvest;
     [SerializeField] private int rS_initialInvest_min;
@@ -67,6 +72,11 @@ public class SimulatorRandomData : MonoBehaviour
     public float rS_AnnualLease;//calcular con las otras variables
     public float rS_min_tir = 11;
     public float rS_max_tir = 13;
+    public float rS_annualCashFlow_answer;
+    public float rS_VAN;
+    public float rS_VANPos;
+    public float rS_VANNeg;
+    public float rS_TIR;
 
     [Header("Manufacturing")]
     public int manu_initialInvest;
@@ -90,6 +100,11 @@ public class SimulatorRandomData : MonoBehaviour
     public float manu_unitSellingPrice;//calcular con las otras variables
     public float manu_min_tir = 7;
     public float manu_max_tir = 9;
+    public float manu_annualCashFlow_answer;
+    public float manu_VAN;
+    public float manu_VANPos;
+    public float manu_VANNeg;
+    public float manu_TIR;
 
     [Header("Financial")]
     public int fin_initialInvest;
@@ -106,6 +121,12 @@ public class SimulatorRandomData : MonoBehaviour
     public float fin_annualProductionRate3 = 3.89f;
     public float fin_min_tir = 8;
     public float fin_max_tir = 10;
+    public float fin_expenses = 0;
+    public float fin_annualCashFlow_answer;
+    public float fin_VAN;
+    public float fin_VANPos;
+    public float fin_VANNeg;
+    public float fin_TIR;
 
 
     public static SimulatorRandomData instance;
@@ -148,6 +169,11 @@ public class SimulatorRandomData : MonoBehaviour
         tec_annualPersonnelExpenses = Mathf.Ceil(tec_annualCashFlow * 3 * 0.75f);
         tec_annualAdvertisingExpenses = (tec_annualCashFlow * 3) - tec_annualPersonnelExpenses;
         tec_annualSales = tec_annualCashFlow * 4;
+        tec_annualCashFlow_answer = tec_annualSales - (tec_annualPersonnelExpenses + tec_annualAdvertisingExpenses);
+        tec_VAN = GetVAN(tec_initialInvest, tec_annualCashFlow_answer, tec_opportunityCost);
+        tec_VANPos = GetVAN(tec_initialInvest, tec_annualCashFlow_answer, tec_min_tir);
+        tec_VANNeg = GetVAN(tec_initialInvest, tec_annualCashFlow_answer, tec_max_tir);
+        tec_TIR = GetTIR(tec_max_tir, tec_max_tir, tec_VANPos, tec_VANNeg);
 
         //Real estate
         rS_opportunityCost = SetOportunityCost(Projects.RealEstate, rS_opportunityCostViable_min, rS_opportunityCostViable_max, rS_opportunityCostNonViable_min, rS_opportunityCostNonViable_max);
@@ -156,6 +182,11 @@ public class SimulatorRandomData : MonoBehaviour
         rS_annualMaintenanceExpenses = (rS_annualCashFlow / 6.7f) * 0.33f;
         rS_annualTaxExpense = (rS_annualCashFlow / 6.7f) - rS_annualMaintenanceExpenses;
         rS_AnnualLease = rS_annualCashFlow + rS_annualMaintenanceExpenses + rS_annualTaxExpense;
+        rS_annualCashFlow_answer = (rS_salePrice + rS_AnnualLease) - (rS_annualMaintenanceExpenses + rS_annualTaxExpense);
+        rS_VAN = GetVAN(rS_initialInvest, rS_annualCashFlow_answer, rS_opportunityCost);
+        rS_VANPos = GetVAN(rS_initialInvest, rS_annualCashFlow_answer,rS_min_tir);
+        rS_VANNeg = GetVAN(rS_initialInvest, rS_annualCashFlow_answer, rS_max_tir);
+        rS_TIR = GetTIR(rS_max_tir, rS_max_tir, rS_VANPos, rS_VANNeg);
 
         //Manufacturing
         manu_opportunityCost = SetOportunityCost(Projects.Manufacturing, manu_opportunityCostViable_min, manu_opportunityCostViable_max, manu_opportunityCostNonViable_min, manu_opportunityCostNonViable_max);
@@ -165,10 +196,20 @@ public class SimulatorRandomData : MonoBehaviour
         manu_annualOperatingExpenses = Mathf.Ceil((manu_annualCashFlow / 0.4f) * 0.2f * 0.6f);
         manu_annualAdvertisingExpenses = Mathf.Ceil((manu_annualCashFlow / 0.4f * 0.2f) - manu_annualOperatingExpenses);
         manu_unitSellingPrice = (manu_annualCashFlow + manu_unitsProducedAnnually * manu_unitCostProduction + manu_annualOperatingExpenses + manu_annualAdvertisingExpenses) / manu_unitsProducedAnnually;
+        manu_annualCashFlow_answer = (manu_unitSellingPrice * manu_unitsProducedAnnually) - (manu_annualOperatingExpenses + manu_annualAdvertisingExpenses + manu_unitCostProduction);
+        manu_VAN = GetVAN(manu_initialInvest, manu_annualCashFlow_answer, manu_opportunityCost);
+        manu_VANPos = GetVAN(manu_initialInvest, manu_annualCashFlow_answer, manu_min_tir);
+        manu_VANNeg = GetVAN(manu_initialInvest, manu_annualCashFlow_answer, manu_max_tir);
+        manu_TIR = GetTIR(manu_max_tir, manu_max_tir, manu_VANPos, manu_VANNeg);
 
         //Financial
         fin_opportunityCost = SetOportunityCost(Projects.Financial, fin_opportunityCostViable_min, fin_opportunityCostViable_max, fin_opportunityCostNonViable_min, fin_opportunityCostNonViable_max);
         fin_annualProduction = GetFinAnnualProduction();
+        fin_annualCashFlow_answer = fin_annualProduction - fin_expenses;
+        fin_VAN = GetVAN(fin_initialInvest, fin_annualCashFlow_answer, fin_opportunityCost);
+        fin_VANPos = GetVAN(fin_initialInvest, fin_annualCashFlow_answer, fin_min_tir);
+        fin_VANNeg = GetVAN(fin_initialInvest, fin_annualCashFlow_answer, fin_max_tir);
+        fin_TIR = GetTIR(fin_max_tir, fin_max_tir, fin_VANPos, fin_VANNeg);
     }
 
     float GetAnnualCashFLow(float InitialInvest, float cashFlowRate1, float cashFlowRate2, float cashFlowRate3) {
@@ -249,5 +290,21 @@ public class SimulatorRandomData : MonoBehaviour
             return (fin_initialInvest / fin_annualProductionRate3);
         }
         return -1;
+    }
+
+    float GetVAN(float investment, float cashFlow, float oportunityCost) {
+        float _VAN = 0;
+
+        for (int i = 1; i <= expectedProfitTime; i++) {
+            _VAN += cashFlow / (Mathf.Pow((1 + (oportunityCost/100)), i));
+        }
+        _VAN -= investment;
+        print("VAN: "+_VAN);
+        return _VAN;
+    }
+
+    float GetTIR(float maxRate, float minRate, float VANpos, float VANneg)
+    {
+        return maxRate - ((maxRate - minRate) / (VANneg - VANpos)) * VANneg;
     }
 }

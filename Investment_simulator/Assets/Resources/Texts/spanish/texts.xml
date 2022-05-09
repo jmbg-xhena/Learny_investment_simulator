@@ -169,21 +169,39 @@ No se recibió respuesta del servidor. Consulte con su profesor.]]></element>
 
   <!-- TEXTO Project Main Map -->
   <element title="Main_Title1">PROYECTO DE INVERSIÓN</element>
-  <element title="Main_Title2">INDUSTRIA INMOBILIARIA</element>
+  <element title="Main_TitleRS">INDUSTRIA INMOBILIARIA</element>
+  <element title="Main_TitleTec">INDUSTRIA TECNOLÓGICA</element>
+  <element title="Main_TitleManu">INDUSTRIA MANUFACTURERA</element>
+  <element title="Main_TitleFin">INDUSTRIA FINANCIERA</element>
   <element title="Main_ButtonDescription">DESCRIPCIÓN DEL PROYECTO</element>
   <element title="Main_ButtonCashFlow">FLUJOS DE CAJA</element>
   <element title="Main_ButtonFinantialIndicators">INDICADORES FINANCIEROS</element>
 
   <!-- TEXTO Menu project description -->
   <element title="pd_Title">DESCRIPCIÓN DEL PROYECTO</element>
-  <element title="pd_Icon">INDUSTRIA INMOBILIARIA</element>
+  <element title="pd_Icon_RS">INDUSTRIA INMOBILIARIA</element>
+  <element title="pd_Icon_Tec">INDUSTRIA TECNOLÓGICA</element>
+  <element title="pd_Icon_Manu">INDUSTRIA MANUFACTURERA</element>
+  <element title="pd_Icon_Fin">INDUSTRIA FINANCIERA</element>
   <element title="pd_Objective_title">Objetivo</element>
+  <element title="pd_Objective_Rs">Compra y venta de apartamento</element>
+  <element title="pd_Objective_Tec">Comercialización de máquinas de impresión textil</element>
+  <element title="pd_Objective_Manu">Fabricación de bicicletas de carrera</element>
+  <element title="pd_Objective_Fin">Compra de acciones comunes</element>
   <element title="pd_InitialInvestment_title">Inversión Inicial</element>
   <element title="pd_Oportunity_Cost_title">Costo de oportunidad</element>
   <element title="pd_Annual_Lease_title">Arrendamiento anual</element>
   <element title="pd_Apartment_sell_title">Precio de venta del apartamento en el último año</element>
   <element title="pd_Apartment_AnnualMaintenance_title">Gastos anuales de mantenimiento</element>
   <element title="pd_Apartment_AnnualTaxes_title">Gastos anuales de impuestos</element>
+  <element title="pd_Annual_Sale_title">Ventas anuales</element>
+  <element title="pd_Annual_Personnel_expenses_title">Gastos anuales de personal</element>
+  <element title="pd_Annual_Taxes_Marketing_expenses_title">Gastos anuales de publicidad e impuestos</element>
+  <element title="pd_Annual_Production_title">Unidades producidas anualmente</element>
+  <element title="pd_Annual_Production_Fin_title">Producción anual</element>
+  <element title="pd_unit_sell_title">Precio de venta unitario</element>
+  <element title="pd_Unit_cost_title">Costo unitario de producción</element>
+  <element title="pd_Annual_Operating_Expenses_title">Gastos anuales operacionales</element>
 
   <!-- TEXTO Cash Flow Menus -->
   <element title="cf_CashFLows_Title">FLUJOS DE CAJA</element>
@@ -194,6 +212,12 @@ No se recibió respuesta del servidor. Consulte con su profesor.]]></element>
   <element title="cf_Expenses_title">EGRESOS [USD]</element>
   <element title="cf_MaintenanceExpensesTitle">Gastos de mantenimiento [USD]</element>
   <element title="cf_TaxExpensesTitle">Gastos de impuestos [USD]</element>
+  <element title="cf_SalesTitleTitle">Ventas [USD]</element>
+  <element title="cf_PersonnelExpensesTitle">Gastos de personal [USD]</element>
+  <element title="cf_TaxMaketing_ExpensesTitle">Gastos de publicidad e impuestos [USD]</element>
+  <element title="cf_ProductionCostTitle">Costos de producción [USD]</element>
+  <element title="cf_OperationalExpensesTitle">Gastos operacionales [USD]</element>
+  <element title="cf_ProductionCostTitle">Costos de producción [USD]</element>
   <element title="cf_TotalExpenses_title">TOTAL EGRESOS [USD]</element>
   <element title="cf_CashFlow_title">FLUJO DE CAJA [USD]</element>
   <element title="Year1">Año 1</element>
